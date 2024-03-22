@@ -9,7 +9,7 @@ export default function CopyRight() {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://themeforest.net/user/elite-themes24"
+            href="https://themeforest.net/user/Mohammad Taha"
           >
             Elite-Themes24
           </a>

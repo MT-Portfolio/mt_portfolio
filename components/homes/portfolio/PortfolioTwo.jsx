@@ -120,7 +120,7 @@ export default function PortfolioTwo() {
 
             <div className="footer-copyright text-center pt-25 pb-25 bg-light-white-2 border-redius-20">
               <span>
-                © {new Date().getFullYear()} All Rights Reserved by ib-themes.
+                © {new Date().getFullYear()} All Rights Reserved by MohammadTaha.
               </span>
             </div>
           </div>

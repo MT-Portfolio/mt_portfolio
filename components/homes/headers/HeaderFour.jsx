@@ -58,7 +58,7 @@ export default function HeaderFour() {
         <div className="bostami-header-wrap">
           <div className="row">
             <div className="col-6">
-              <div className="bostami-header-logo">
+              {/* <div className="bostami-header-logo">
                 <Link className="site-logo" href="/">
                   <Image
                     width={153}
@@ -67,7 +67,7 @@ export default function HeaderFour() {
                     alt="logo"
                   />
                 </Link>
-              </div>
+              </div> */}
             </div>
 
             <div className="col-6">

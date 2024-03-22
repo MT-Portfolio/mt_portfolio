@@ -1,26 +1,32 @@
 export const skillData = [
   {
     id: 1,
-    title: "Web Design",
-    progress: 85,
+    title: "LAMP Stack",
+    progress: 75,
     progressClass: "progress-bg-1",
   },
   {
     id: 2,
-    title: "Mobile App",
-    progress: 55,
+    title: "MERN Stack",
+    progress: 90,
     progressClass: "progress-bg-2",
   },
   {
     id: 3,
-    title: "Illustrator",
-    progress: 65,
+    title: "Web App",
+    progress: 85,
     progressClass: "progress-bg-3",
   },
   {
     id: 4,
-    title: "Photoshop",
-    progress: 72,
+    title: "Mobile App",
+    progress: 50,
     progressClass: "progress-bg-4",
+  },
+  {
+    id: 4,
+    title: "Databases",
+    progress: 80,
+    progressClass: "progress-bg-1",
   },
 ];

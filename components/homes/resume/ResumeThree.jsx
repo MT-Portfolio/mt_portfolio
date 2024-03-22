@@ -40,7 +40,7 @@ export default function ResumeThree() {
                   <h6 className="card-title">
                     {elm.cardTitle} <span>- {elm.cardSubtitleSecondary},</span>
                   </h6>
-                  <p className="card-text">{elm.locatopn}</p>
+                  <p className="card-text">{elm.location}</p>
                 </div>
               ))}
             </div>
@@ -123,7 +123,7 @@ export default function ResumeThree() {
 
       <div className="footer-copyright text-center pt-25 pb-25">
         <span>
-          © {new Date().getFullYear()} All Rights Reserved by elite-themes24.
+          © {new Date().getFullYear()} All Rights Reserved by MohammadTaha.
         </span>
       </div>
     </div>

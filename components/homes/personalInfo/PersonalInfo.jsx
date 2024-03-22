@@ -35,7 +35,7 @@ export default function PersonalInfo() {
 
           <div className="bostami-parsonal-info-contact mb-30">
             {contactData.map((elm, i) => (
-              <div key={i} className="bostami-parsonal-info-contact-item">
+              <div key={i} className="bostami-parsonal-info-contact-item home1">
                 <div
                   style={{ color: `${elm.color}`, fontSize: `${elm.fontSize}` }}
                   className="icon"
