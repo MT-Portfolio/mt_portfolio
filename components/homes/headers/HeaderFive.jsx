@@ -61,7 +61,7 @@ export default function HeaderTwo() {
         <div className="bostami-header-wrap main-style-2">
           <div className="row">
             <div className="col-lg-2 col-md-6 col-sm-4 col-4 d-flex align-items-center">
-              <div className="bostami-header-logo">
+              {/* <div className="bostami-header-logo">
                 <Link className="site-logo" href="/">
                   <Image
                     width={153}
@@ -70,7 +70,7 @@ export default function HeaderTwo() {
                     alt="logo"
                   />
                 </Link>
-              </div>
+              </div> */}
             </div>
 
             <div className="col-lg-10 col-md-6 col-sm-8 col-8">

@@ -28,7 +28,7 @@ export default function Education() {
             <h6 className="card-title">
               {elm.cardTitle} <span>- {elm.cardSubtitleSecondary},</span>
             </h6>
-            <p className="card-text">{elm.locatopn}</p>
+            <p className="card-text">{elm.location}</p>
           </div>
         ))}
       </div>

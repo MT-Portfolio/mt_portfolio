@@ -23,7 +23,7 @@ export default function ResumeTwo() {
 
           <div className="bostami-resume-2">
             <div className="row">
-              <div className="col-xl-4 col-lg-6 col-md-6">
+              <div className="col-xl-6 col-lg-6 col-md-6">
                 <div className="bostami-section-title-wrap mb-20">
                   <h4 className="section-title">
                     <Image
@@ -48,13 +48,13 @@ export default function ResumeTwo() {
                         {elm.cardTitle}{" "}
                         <span>- {elm.cardSubtitleSecondary},</span>
                       </h6>
-                      <p className="card-text">{elm.locatopn}</p>
+                      <p className="card-text">{elm.location}</p>
                     </div>
                   ))}
                 </div>
               </div>
 
-              <div className="col-xl-4 col-lg-6 col-md-6">
+              <div className="col-xl-6 col-lg-6 col-md-6">
                 <div className="bostami-section-title-wrap mb-20">
                   <h4 className="section-title">
                     <Image
@@ -83,7 +83,7 @@ export default function ResumeTwo() {
                 </div>
               </div>
 
-              <div className="col-xl-4 col-lg-6 col-md-6">
+              {/* <div className="col-xl-4 col-lg-6 col-md-6">
                 <div className="bostami-section-title-wrap mb-20">
                   <h4 className="section-title">
                     <Image
@@ -110,7 +110,7 @@ export default function ResumeTwo() {
                     </div>
                   ))}
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -162,7 +162,7 @@ export default function ResumeTwo() {
 
           <div className="footer-copyright text-center pt-25 pb-25">
             <span>
-              © {new Date().getFullYear()} All Rights Reserved by elite-themes24.
+              © {new Date().getFullYear()} All Rights Reserved by MohammadTaha.
             </span>
           </div>
         </div>

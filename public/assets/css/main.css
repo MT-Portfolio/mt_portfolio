@@ -5,7 +5,7 @@
 
 Template Name: Name - Bostami - Personal Portfolio NextJs Template
 Description: Bostami – HTML Personal Portfolio Template can be used for many purposes. It’s a creative, minimal and clean design.It’s suitable for Designer, Developer, Specialist, Content Writer, Instructor, Photographer, Freelancer, Software Engineer, Teacher or others expert who Show their professional projects and services in digital way. It’s 100% responsive and Ultra Super Fast beacause it’s made with Latest html
-Author: elite-themes24
+Author: Mohammad Taha
 Version: 1.0
 
 -----------------------------------------------------------------------------------
@@ -2165,7 +2165,7 @@ textarea:focus::placeholder {
 }
 
 .home-3 .bostami-header-area {
-  margin-bottom: 240px;
+  margin-bottom: 30px; /* 240px */
   background-color: transparent;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px),
@@ -2173,7 +2173,7 @@ textarea:focus::placeholder {
   only screen and (min-width: 768px) and (max-width: 991px),
   (max-width: 767px) {
   .home-3 .bostami-header-area {
-    margin-bottom: 40px;
+    margin-bottom: 30px; /* 40px */
   }
 }
 .home-3 .bostami-header-area .bostami-header-wrap {
@@ -2580,14 +2580,14 @@ textarea:focus::placeholder {
 }
 
 .home-1 .bostami-header-area {
-  margin-bottom: 205px;
+  margin-bottom: 30px; /* 205px */
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px),
   only screen and (min-width: 992px) and (max-width: 1199px),
   only screen and (min-width: 768px) and (max-width: 991px),
   (max-width: 767px) {
   .home-1 .bostami-header-area {
-    margin-bottom: 50px;
+    margin-bottom: 30px; /* 50px */
   }
 }
 .home-1 .bostami-header-wrap {
@@ -2899,7 +2899,7 @@ textarea:focus::placeholder {
   margin-bottom: 3px;
 }
 .bostami-parsonal-info-contact-item .text p {
-  font-size: 16px;
+  font-size: 16px; /* 16px */
   line-height: 24px;
   font-weight: 400;
   color: var(--common-black);
@@ -2908,7 +2908,15 @@ textarea:focus::placeholder {
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .bostami-parsonal-info-contact-item .text p {
-    font-size: 14px;
+    font-size: 8.3px; /* 14px */
+  }
+}
+@media only screen and (min-width: 1400px) and (max-width: 1599px) {
+  .bostami-parsonal-info-contact-item .text p {
+    font-size: 13px; 
+  }
+  .bostami-parsonal-info-contact-item .home1 .text p {
+    font-size: 9px; 
   }
 }
 
@@ -2993,7 +3001,7 @@ textarea:focus::placeholder {
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .home-3 .bostami-parsonal-info-contact-item .text p {
-    font-size: 14px;
+    font-size: 8.3px; /* 14px */
   }
 }
 .home-3 .bostami-parsonal-info-social-link li a:hover {
