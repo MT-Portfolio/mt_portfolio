@@ -3,9 +3,9 @@ import PersonalInfoTwo from "@/components/homes/personalInfo/PersonalInfoTwo";
 import React from "react";
 
 export const metadata = {
-  title: "Home-2 || Bostami - Professional portfolio NextJS Template",
+  title: "Home-2 || Mohammad Taha - Software Engineer",
   description:
-    "Discover Botami,the most impressive portfolio template for work showcase, blog",
+    "Creative Web & Mobile App Developer | Building Beautiful & User-Friendly Experiences | Let's discuss your project",
 };
 export default function Home2() {
   return (

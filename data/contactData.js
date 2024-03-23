@@ -23,7 +23,7 @@ export const contactData = [
     id: 3,
     color: "#FD7590",
     fontSize: "22px",
-    iconClass: "fa-solid fa-location-dot",
+    iconClass: "fa-regular fa-location-dot",
     text: {
       label: "Location",
       value: "Lahore, Pakistan",
