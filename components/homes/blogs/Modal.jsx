@@ -80,7 +80,7 @@ export default function Modal({ setShowModal, showModal, modalContent }) {
                   <Image
                     width={125}
                     height={152}
-                    src="/assets/img/parsonal-info/parson-img-2.png"
+                    src="/assets/img/parsonal-info/mtProfile1.png"
                     alt="comment"
                   />
                 </div>
