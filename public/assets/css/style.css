@@ -72,17 +72,17 @@ body {
 }
 
 .btn-1 {
-    background: linear-gradient(97deg, rgba(250, 82, 82, 1) 0%, rgba(221, 36, 118, 1) 100%);
+    background: linear-gradient(97deg, rgba(84, 162, 220, 1) 0%, rgba(9, 65, 149, 1) 100%);
 }
 .btn-1:hover {
-    background: linear-gradient(197deg, rgba(250, 82, 82, 1) 0%, rgba(221, 36, 118, 1) 100%);
+    background: linear-gradient(197deg, rgba(84, 162, 220, 1) 0%, rgba(9, 65, 149, 1) 100%);
     color: #fff;
 }
 
-.btn-2 {
+/* .btn-2 {
     background: white;
     color: #000000;
-}
+} */
 
 .main-title {
     font-size: 45px;
@@ -96,7 +96,7 @@ body {
 .section-title {
     font-size: 32px;
     font-weight: 600;
-    color: #dddddd;
+    color: #000000; /* #dddddd */
     margin-bottom: 20px;
 }
 .section-pera {
