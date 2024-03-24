@@ -74,7 +74,7 @@ export default function HeaderTwo() {
                 <div className="bostami-main-menu-wrap ">
                   <nav className="bastami-main-menu main_menu_2">
                     <ul style={{ display: "flex", alignItems: "center" }}>
-                      <li className={pathname == "/home-2" ? "active" : ""}>
+                      {/* <li className={pathname == "/home-2" ? "active" : ""}>
                         <Link
                           href="/home-2"
                           style={{ display: "flex", alignItems: "center" }}
@@ -89,7 +89,7 @@ export default function HeaderTwo() {
                           </span>
                           home
                         </Link>
-                      </li>
+                      </li> */}
 
                       {menuItemsTwo.map((elm, i) => (
                         <li

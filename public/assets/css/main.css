@@ -41,8 +41,8 @@ CSS INDEX
   --common-white: #ffffff;
   --common-white-two: #ffffff;
   --common-black: #000;
-  --theme-primary: #1b74e4;
-  --theme-secondary: #fa5252;
+  --theme-primary: #094195;
+  --theme-secondary: #54A2DC;
   --body-text: #44566c;
   --body-heading: #000;
   --heading-black: #0f172a;
@@ -55,8 +55,8 @@ CSS INDEX
 :root .dark-theme {
   --common-white: #000;
   --common-black: #fff;
-  --theme-primary: #1b74e4;
-  --theme-secondary: #fa5252;
+  --theme-primary: #094195;
+  --theme-secondary: #54A2DC;
   --body-text: #a6a6a6;
   --body-heading: #fff;
   --heading-black: #0f172a;
@@ -1825,8 +1825,8 @@ textarea:focus::placeholder {
   color: var(--common-white);
   background: linear-gradient(
     97deg,
-    rgb(250, 82, 82) 0%,
-    rgb(221, 36, 118) 100%
+    rgb(84, 162, 220) 0%,
+    rgb(9, 65, 149) 100%
   );
   line-height: 27px;
   padding: 12px 30px;
@@ -1845,7 +1845,7 @@ textarea:focus::placeholder {
 .btn-2:focus {
   background: linear-gradient(80deg, #fa5252 0%, #e12a72 100%);
   border: 1px solid
-    linear-gradient(97deg, rgb(201, 93, 93) 0%, rgb(221, 36, 118) 100%);
+    linear-gradient(97deg, rgb(201, 93, 93) 0%, rgb(9, 65, 149) 100%);
   color: var(--light-white);
   transform: translateY(-2px);
 }
@@ -1923,8 +1923,8 @@ textarea:focus::placeholder {
 .page-wrapper-2 .form-btn:hover {
   background: linear-gradient(
     97deg,
-    rgb(250, 82, 82) 0%,
-    rgb(221, 36, 118) 100%
+    rgb(84, 162, 220) 0%,
+    rgb(9, 65, 149) 100%
   );
   border-color: transparent;
 }
@@ -1932,8 +1932,8 @@ textarea:focus::placeholder {
 .home-3 .form-btn:hover {
   background: linear-gradient(
     97deg,
-    rgb(250, 82, 82) 0%,
-    rgb(221, 36, 118) 100%
+    rgb(84, 162, 220) 0%,
+    rgb(9, 65, 149) 100%
   );
   border-color: transparent;
 }
@@ -2117,11 +2117,11 @@ textarea:focus::placeholder {
   margin-bottom: 11px;
 }
 .bostami-page-area .page-title::after {
-  background: rgb(250, 82, 82);
+  background: rgb(84, 162, 220);
   background: linear-gradient(
     97deg,
-    rgb(250, 82, 82) 0%,
-    rgb(221, 36, 118) 100%
+    rgb(84, 162, 220) 0%,
+    rgb(9, 65, 149) 100%
   );
 }
 @media (max-width: 767px) {
@@ -2154,8 +2154,8 @@ textarea:focus::placeholder {
 .home-3 .page-title::after {
   background: linear-gradient(
     97deg,
-    rgb(250, 82, 82) 0%,
-    rgb(221, 36, 118) 100%
+    rgb(84, 162, 220) 0%,
+    rgb(9, 65, 149) 100%
   );
 }
 
@@ -2464,11 +2464,11 @@ textarea:focus::placeholder {
   }
 }
 .main-style-2 .bostami-main-menu-wrap .bastami-main-menu ul li a:hover {
-  background: rgb(250, 82, 82);
+  background: rgb(84, 162, 220);
   background: linear-gradient(
     97deg,
-    rgb(250, 82, 82) 0%,
-    rgb(221, 36, 118) 100%
+    rgb(84, 162, 220) 0%,
+    rgb(9, 65, 149) 100%
   );
 }
 .main-style-2 .bostami-main-menu-wrap .bastami-main-menu ul li a span {
@@ -2480,11 +2480,11 @@ textarea:focus::placeholder {
   width: 20px;
 }
 .main-style-2 .bostami-main-menu-wrap .bastami-main-menu ul li:is(.active) a {
-  background: rgb(250, 82, 82);
+  background: rgb(84, 162, 220);
   background: linear-gradient(
     97deg,
-    rgb(250, 82, 82) 0%,
-    rgb(221, 36, 118) 100%
+    rgb(84, 162, 220) 0%,
+    rgb(9, 65, 149) 100%
   );
 }
 
@@ -2551,15 +2551,15 @@ textarea:focus::placeholder {
 .home-3 .bastami-main-menu ul li:hover {
   background: linear-gradient(
     97deg,
-    rgb(250, 82, 82) 0%,
-    rgb(221, 36, 118) 100%
+    rgb(84, 162, 220) 0%,
+    rgb(9, 65, 149) 100%
   );
 }
 .home-3 .bastami-main-menu ul li:is(.active) {
   background: linear-gradient(
     97deg,
-    rgb(250, 82, 82) 0%,
-    rgb(221, 36, 118) 100%
+    rgb(84, 162, 220) 0%,
+    rgb(9, 65, 149) 100%
   );
 }
 
@@ -2574,8 +2574,8 @@ textarea:focus::placeholder {
 .home-3 .menu-btn.active {
   background: linear-gradient(
     97deg,
-    rgb(250, 82, 82) 0%,
-    rgb(221, 36, 118) 100%
+    rgb(84, 162, 220) 0%,
+    rgb(9, 65, 149) 100%
   );
 }
 
@@ -2957,8 +2957,8 @@ textarea:focus::placeholder {
   a:hover {
   background: linear-gradient(
     97deg,
-    rgb(250, 82, 82) 0%,
-    rgb(221, 36, 118) 100%
+    rgb(84, 162, 220) 0%,
+    rgb(9, 65, 149) 100%
   );
 }
 
@@ -2982,8 +2982,8 @@ textarea:focus::placeholder {
 .page-wrapper-2 .bostami-parsonal-info-contact-item .icon:hover {
   background: linear-gradient(
     97deg,
-    rgb(250, 82, 82) 0%,
-    rgb(221, 36, 118) 100%
+    rgb(84, 162, 220) 0%,
+    rgb(9, 65, 149) 100%
   );
 }
 
@@ -3004,15 +3004,15 @@ textarea:focus::placeholder {
 .home-3 .bostami-parsonal-info-social-link li a:hover {
   background: linear-gradient(
     97deg,
-    rgb(250, 82, 82) 0%,
-    rgb(221, 36, 118) 100%
+    rgb(84, 162, 220) 0%,
+    rgb(9, 65, 149) 100%
   );
 }
 .home-3 .bostami-parsonal-info-contact-item .icon:hover {
   background: linear-gradient(
     97deg,
-    rgb(250, 82, 82) 0%,
-    rgb(221, 36, 118) 100%
+    rgb(84, 162, 220) 0%,
+    rgb(9, 65, 149) 100%
   );
 }
 
@@ -3079,6 +3079,7 @@ textarea:focus::placeholder {
   margin-bottom: 10px;
   font-size: 20px;
   font-weight: 500;
+  color: var(--common-black) !important;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px),
   lg,
@@ -4467,8 +4468,8 @@ textarea:focus::placeholder {
 .blog-details-tag .tag-item a:hover {
   background: linear-gradient(
     97deg,
-    rgb(250, 82, 82) 0%,
-    rgb(221, 36, 118) 100%
+    rgb(84, 162, 220) 0%,
+    rgb(9, 65, 149) 100%
   );
   color: #fff;
 }
@@ -4594,8 +4595,8 @@ textarea:focus::placeholder {
 .blog-details-comment-box form .submit-comments:hover {
   background: linear-gradient(
     97deg,
-    rgb(250, 82, 82) 0%,
-    rgb(221, 36, 118) 100%
+    rgb(84, 162, 220) 0%,
+    rgb(9, 65, 149) 100%
   );
   color: #fff;
   border-color: transparent;
@@ -4754,8 +4755,8 @@ textarea:focus::placeholder {
 .sidebar-tag a:hover {
   background: linear-gradient(
     97deg,
-    rgb(250, 82, 82) 0%,
-    rgb(221, 36, 118) 100%
+    rgb(84, 162, 220) 0%,
+    rgb(9, 65, 149) 100%
   );
   color: #fff;
 }
@@ -5015,8 +5016,8 @@ textarea:focus::placeholder {
 .dark-theme .page-wrapper-2 .bostami-parsonal-info-contact-item .icon:hover {
   background: linear-gradient(
     97deg,
-    rgb(250, 82, 82) 0%,
-    rgb(221, 36, 118) 100%
+    rgb(84, 162, 220) 0%,
+    rgb(9, 65, 149) 100%
   );
 }
 .dark-theme .home-3 .bastami-main-menu ul li:is(.active) a span svg * {
@@ -5031,29 +5032,29 @@ textarea:focus::placeholder {
 .dark-theme .home-3 .bostami-parsonal-info-social-link li a:hover {
   background: linear-gradient(
     97deg,
-    rgb(250, 82, 82) 0%,
-    rgb(221, 36, 118) 100%
+    rgb(84, 162, 220) 0%,
+    rgb(9, 65, 149) 100%
   );
 }
 .dark-theme .home-3 .bastami-main-menu ul li:is(.active) {
   background: linear-gradient(
     97deg,
-    rgb(250, 82, 82) 0%,
-    rgb(221, 36, 118) 100%
+    rgb(84, 162, 220) 0%,
+    rgb(9, 65, 149) 100%
   );
 }
 .dark-theme .home-3 .bastami-main-menu ul li:hover {
   background: linear-gradient(
     97deg,
-    rgb(250, 82, 82) 0%,
-    rgb(221, 36, 118) 100%
+    rgb(84, 162, 220) 0%,
+    rgb(9, 65, 149) 100%
   );
 }
 .dark-theme .home-3 .bostami-parsonal-info-contact-item .icon:hover {
   background: linear-gradient(
     97deg,
-    rgb(250, 82, 82) 0%,
-    rgb(221, 36, 118) 100%
+    rgb(84, 162, 220) 0%,
+    rgb(9, 65, 149) 100%
   );
 }
 .dark-theme .home-1 .bostami-header-wrap {

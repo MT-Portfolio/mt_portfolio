@@ -59,7 +59,7 @@ export const itemsTwo = [
   },
   {
     id: 4,
-    icon: "/assets/img/webdev.svg",
+    icon: "/assets/img/frontendDev.svg",
     title: "Front-End Development",
     description:
       "Develop interactive and visually appealing web applications.",
@@ -67,7 +67,7 @@ export const itemsTwo = [
   },
   {
     id: 5,
-    icon: "/assets/img/management.svg",
+    icon: "/assets/img/backendDev.svg",
     title: "Back-End Development",
     description:
       "Develop interactive and visually appealing web applications.",
@@ -75,7 +75,7 @@ export const itemsTwo = [
   },
   {
     id: 6,
-    icon: "/assets/img/management.svg",
+    icon: "/assets/img/agileProjectManagement.svg",
     title: "Project Management",
     description:
       "Apply agile project management to ensure your projects stay on track and deliver exceptional results.",

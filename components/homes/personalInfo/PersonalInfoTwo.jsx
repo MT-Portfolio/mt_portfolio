@@ -1,5 +1,6 @@
 import { profileInfo } from "@/data/profileInfo";
 import { socialMediaData } from "@/data/socials";
+import { color } from "framer-motion";
 import Image from "next/image";
 import React from "react";
 
@@ -20,7 +21,7 @@ export default function PersonalInfoTwo() {
           <h4 className="bostami-parsonal-info-name">
             <a href="#">{profileInfo.name}</a>
           </h4>
-          <span className="bostami-parsonal-info-bio mb-15">{profileInfo.title}</span>
+          <span className="bostami-parsonal-info-bio mb-15" style={{color: "white"}}>{profileInfo.title}</span>
 
           <ul className="bostami-parsonal-info-social-link mb-30">
             {socialMediaData.map((elm, i) => (
