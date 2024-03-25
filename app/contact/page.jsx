@@ -4,7 +4,7 @@ import HeaderTwo from "@/components/homes/headers/HeaderTwo";
 
 import React from "react";
 export const metadata = {
-  title: "Contact-2 || Mohammad Taha - Software Engineer",
+  title: "Contact || Mohammad Taha - Software Engineer",
   description:
     "Creative Web & Mobile App Developer | Building Beautiful & User-Friendly Experiences | Let's discuss your project",
 };

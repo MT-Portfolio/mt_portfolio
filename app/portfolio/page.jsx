@@ -4,7 +4,7 @@ import PortfolioTwo from "@/components/homes/portfolio/PortfolioTwo";
 // import ResumeTwo from "@/components/homes/resume/ResumeTwo";
 import React from "react";
 export const metadata = {
-  title: "Portfolio-2 || Mohammad Taha - Software Engineer",
+  title: "Portfolio || Mohammad Taha - Software Engineer",
   description:
     "Creative Web & Mobile App Developer | Building Beautiful & User-Friendly Experiences | Let's discuss your project",
 };
