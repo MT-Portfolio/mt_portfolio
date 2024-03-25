@@ -200,7 +200,7 @@ export const portfolioData = [
     desc: [
       ` Description:`,
       ` Tailoring Solutions is an ongoing mobile e-commerce application being built with React Native, targeting
-      women who seek customized and tailored dressmaking services. The app caters to a variety of needs:`,
+      women who seek customized and tailored dressmaking services. The app caters to a variety of needs.`,
 
       ` Key Features:`,
       `- Browse & Order Pre-designed Dresses: Users can explore and purchase a curated selection of ready-made 
