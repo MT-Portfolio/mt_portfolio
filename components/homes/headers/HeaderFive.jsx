@@ -56,12 +56,12 @@ export default function HeaderTwo() {
     }
   }, []);
   return (
-    <div className="bostami-header-area mb-30 z-index-5">
+    <div className="mt-header-area mb-30 z-index-5">
       <div className="container">
-        <div className="bostami-header-wrap main-style-2">
+        <div className="mt-header-wrap main-style-2">
           <div className="row">
             <div className="col-lg-2 col-md-6 col-sm-4 col-4 d-flex align-items-center">
-              {/* <div className="bostami-header-logo">
+              {/* <div className="mt-header-logo">
                 <Link className="site-logo" href="/">
                   <Image
                     width={153}
@@ -75,7 +75,7 @@ export default function HeaderTwo() {
 
             <div className="col-lg-10 col-md-6 col-sm-8 col-8">
               <div className="header-right-flex">
-                <div className="bostami-main-menu-wrap ">
+                <div className="mt-main-menu-wrap ">
                   <nav className="bastami-main-menu main_menu_2">
                     <ul style={{ display: "flex", alignItems: "center" }}>
                       {/* <li className={pathname == "/home-2" ? "active" : ""}>
@@ -114,7 +114,7 @@ export default function HeaderTwo() {
                     </ul>
                   </nav>
                 </div>
-                <div className="bostami-header-menu-btn text-right ml-30">
+                <div className="mt-header-menu-btn text-right ml-30">
                   <div
                     className="dark-btn dark-btn-2 mode-btn"
                     onClick={() => handleDarkmode()}

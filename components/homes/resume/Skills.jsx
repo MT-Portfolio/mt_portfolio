@@ -4,7 +4,7 @@ import React from "react";
 export default function Skills() {
   return (
     <div className="col-xl-6 col-lg-7">
-      <div className="bostami-section-title-wrap mb-20">
+      <div className="mt-section-title-wrap mb-20">
         <h4 className="section-title">Working Skills</h4>
       </div>
 

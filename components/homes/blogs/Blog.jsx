@@ -27,9 +27,9 @@ export default function Blog() {
   return (
     <>
       <div className="col-xxl-8 col-xl-9">
-        <div className="bostami-page-content-wrap">
+        <div className="mt-page-content-wrap">
           <div className="section-wrapper pl-60 pr-60 pt-60">
-            <div className="bostami-page-title-wrap mb-15">
+            <div className="mt-page-title-wrap mb-15">
               <h2 className="page-title">blogs</h2>
             </div>
           </div>

@@ -16,11 +16,11 @@ export default function AboutTwo() {
     setShowSlider(true);
   }, []);
   return (
-    <div className="bostami-page-wrap pt-60 pl-80 pr-80">
+    <div className="mt-page-wrap pt-60 pl-80 pr-80">
       <div className="page-tilte-2-wrap">
         <div className="row">
           <div className="col-12">
-            <div className="bostami-page-title-wrap mb-40">
+            <div className="mt-page-title-wrap mb-40">
               <h2 className="page-title">About Me</h2>
             </div>
           </div>
@@ -30,7 +30,7 @@ export default function AboutTwo() {
       <div className="about-me-2-wrap">
         <div className="row">
           <div className="col-lg-4 col-md-8">
-            <div className="bostami-parsonal-info-img">
+            <div className="mt-personal-info-img">
               <Image
                 width={240}
                 height={240}
@@ -41,18 +41,18 @@ export default function AboutTwo() {
           </div>
 
           <div className="col-lg-8 col-md-12">
-            <div className="bostami-parsonal-info-wrap mb-40">
-              <h4 className="bostami-parsonal-info-title">Who am i?</h4>
-              <p className="bostami-parsonal-info-bio-text">{bioData.descOne}</p>
+            <div className="mt-personal-info-wrap mb-40">
+              <h4 className="mt-personal-info-title">Who am i?</h4>
+              <p className="mt-personal-info-bio-text">{bioData.descOne}</p>
 
-              <p className="bostami-parsonal-info-bio-text">{bioData.descTwo}</p>
+              <p className="mt-personal-info-bio-text">{bioData.descTwo}</p>
 
-              <div className="bostami-parsonal-info-contact">
+              <div className="mt-personal-info-contact">
                 <h3 className="title">Personal Info</h3>
                 <div className="row">
                   {contactData.map((elm, i) => (
                     <div key={i} className="col-lg-6 col-md-6">
-                      <div className="bostami-parsonal-info-contact-item">
+                      <div className="mt-personal-info-contact-item">
                         <div
                           style={{
                             color: `${elm.color}`,
@@ -79,14 +79,14 @@ export default function AboutTwo() {
       <div className="what-i-do-2 mb-50">
         <div className="row">
           <div className="col-12">
-            <div className="bostami-section-title-wrap mb-30">
+            <div className="mt-section-title-wrap mb-30">
               <h2 className="section-title">What I do!</h2>
             </div>
           </div>
 
           {itemsTwo.map((elm, i) => (
             <div key={i} className="col-xl-4 col-lg-6 col-md-6">
-              <div className={`bostami-what-do-item ${elm.bg}`}>
+              <div className={`mt-what-do-item ${elm.bg}`}>
                 <div className="icon" style={{ margin: "0 auto" }}>
                   <Image
                     height={45}
@@ -109,13 +109,13 @@ export default function AboutTwo() {
       <div className="client-2-wrap bg-light-white-2 pt-40 pb-65">
         <div className="row">
           <div className="col-12">
-            <div className="bostami-section-title-wrap text-center mb-35">
+            <div className="mt-section-title-wrap text-center mb-35">
               <h2 className="section-title">Clients</h2>
             </div>
           </div>
 
           <div className="col-12">
-            <div className="bostami-client-slider">
+            <div className="mt-client-slider">
               <div className="swiper-container client_slide_active">
                 {showSlider && (
                   <Swiper
@@ -151,7 +151,7 @@ export default function AboutTwo() {
                             height={62}
                             width={264}
                             style={{ height:'62px',width:'fit-content'}}
-                            className="bostami-client-slider-logo"
+                            className="mt-client-slider-logo"
                             src={elm.imgSrc}
                             alt="client"
                           />

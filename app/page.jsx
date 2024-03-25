@@ -1,5 +1,5 @@
 import "../public/assets/css/style.css";
-import Home2 from "./(homes)/home-2/page";
+import Home2 from "./(homes)/home/page";
 
 export const metadata = {
   title: "Preview || Mohammad Taha - Software Engineer Portfolio",

@@ -68,7 +68,7 @@ export default function Modal({ setShowModal, showModal, modalContent }) {
                       <span>{modalContent?.languages.join(", ")}</span>
                     </h3>
                   </div>
-                  <div className="col-md-6">
+                  {/* <div className="col-md-6">
                     <h3 className="portfolio-modal-table-text">
                       <i className="fa-solid fa-arrow-up-right-from-square"></i>
                       Preview :{" "}
@@ -76,7 +76,7 @@ export default function Modal({ setShowModal, showModal, modalContent }) {
                         {modalContent?.previewName}
                       </a>
                     </h3>
-                  </div>
+                  </div> */}
                 </div>
               </div>
 

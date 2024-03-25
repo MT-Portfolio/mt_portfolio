@@ -12,7 +12,7 @@ export default function page() {
     <>
       <div className="page-wrapper page-wrapper-2">
         <HeaderTwo />
-        <div className="bostami-page-area z-index-3">
+        <div className="mt-page-area z-index-3">
           <div className="container">
             <AboutTwo />
           </div>

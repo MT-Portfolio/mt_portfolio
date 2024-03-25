@@ -26,20 +26,20 @@ export default function BlogsTwo() {
 
   return (
     <>
-      <div className="bostami-page-area z-index-3">
+      <div className="mt-page-area z-index-3">
         <div className="container">
-          <div className="bostami-page-wrap pt-60 pl-80 pr-80">
+          <div className="mt-page-wrap pt-60 pl-80 pr-80">
             <div className="page-tilte-2-wrap">
               <div className="row">
                 <div className="col-12">
-                  <div className="bostami-page-title-wrap mb-40">
+                  <div className="mt-page-title-wrap mb-40">
                     <h2 className="page-title">blog</h2>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="bostami-blog-2 mb-30">
+            <div className="mt-blog-2 mb-30">
               <div className="row">
                 <div className="col-12">
                   <div className="blog-slider-wrap">
