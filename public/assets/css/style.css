@@ -43,7 +43,7 @@ body {
 .title {
     font-size: 32px;
     font-weight: 600;
-    color: white;
+    color: var(--common-black);
     line-height: 1.5;
     margin-bottom: 30px;
 }
@@ -87,7 +87,7 @@ body {
 .main-title {
     font-size: 45px;
     text-transform: capitalize;
-    color: #fa5252;
+    color: #54A2DC;
     font-weight: 600;
 }
 .bg-shape {
@@ -96,7 +96,7 @@ body {
 .section-title {
     font-size: 32px;
     font-weight: 600;
-    color: #000000; /* #dddddd */
+    color: var(--common-black); /* #dddddd */
     margin-bottom: 20px;
 }
 .section-pera {
@@ -195,7 +195,7 @@ body {
 
 .buy-title span {
     display: inline-block;
-    color: #fa5252;
+    color: #54A2DC;
     text-transform: uppercase;
 }
 
@@ -214,7 +214,7 @@ body {
     transition: 0.3s;
 }
 .copy-right a:hover {
-    color: #fa5252;
+    color: #54A2DC;
 }
 
 /* // X-Small devices (portrait phones, less than 576px) */

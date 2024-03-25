@@ -5,7 +5,7 @@ import React from "react";
 export default function Education() {
   return (
     <div className="col-xl-6 col-lg-7">
-      <div className="bostami-section-title-wrap mb-20">
+      <div className="mt-section-title-wrap mb-20">
         <h4 className="section-title">
           <Image
             width={38}
@@ -17,10 +17,10 @@ export default function Education() {
         </h4>
       </div>
 
-      <div className="bostami-card-wrap">
+      <div className="mt-card-wrap">
         {education.map((elm, i) => (
           <div
-            className={`bostami-card-item ${elm.bgClass} ${
+            className={`mt-card-item ${elm.bgClass} ${
               i + 1 != education.length && "mb-20"
             } `}
           >

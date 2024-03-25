@@ -9,7 +9,7 @@ export default function MenuTwo() {
   const pathname = usePathname();
   return (
     <div className="col-xxl-1 d-xxl-block d-none">
-      <div className="bostami-main-menu-wrap">
+      <div className="mt-main-menu-wrap">
         <nav className="bastami-main-menu main_menu">
           <ul>
             {menuItems.map((elm, i) => (

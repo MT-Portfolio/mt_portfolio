@@ -2,7 +2,7 @@ export const skillData = [
   {
     id: 1,
     title: "LAMP Stack",
-    progress: 75,
+    progress: 80,
     progressClass: "progress-bg-1",
   },
   {
@@ -20,7 +20,7 @@ export const skillData = [
   {
     id: 4,
     title: "Mobile App",
-    progress: 50,
+    progress: 85,
     progressClass: "progress-bg-4",
   },
   {

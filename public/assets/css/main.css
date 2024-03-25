@@ -16,7 +16,7 @@ CSS INDEX
 02. button
 03. page
 04. header
-05. parsonal info
+05. personal info
 06. client
 07. what do
 08. resume
@@ -1843,7 +1843,7 @@ textarea:focus::placeholder {
 }
 .btn-2:hover,
 .btn-2:focus {
-  background: linear-gradient(80deg, #fa5252 0%, #e12a72 100%);
+  background: linear-gradient(80deg, #54A2DC 0%, #094195 100%);
   border: 1px solid
     linear-gradient(97deg, rgb(201, 93, 93) 0%, rgb(9, 65, 149) 100%);
   color: var(--light-white);
@@ -1978,7 +1978,7 @@ textarea:focus::placeholder {
   padding-bottom: 0;
 }
 
-.bostami-page-title-wrap p {
+.mt-page-title-wrap p {
   max-width: 632px;
 }
 
@@ -2027,16 +2027,16 @@ textarea:focus::placeholder {
   }
 }
 
-.bostami-page-content-wrap {
+.mt-page-content-wrap {
   background-color: var(--common-white);
   border-radius: 20px;
 }
 
-.bostami-section-title-wrap .section-title {
+.mt-section-title-wrap .section-title {
   margin-bottom: 0;
   font-weight: 500;
 }
-.bostami-section-title-wrap .section-title img {
+.mt-section-title-wrap .section-title img {
   margin-right: 6px;
   margin-top: -5px;
 }
@@ -2044,7 +2044,7 @@ textarea:focus::placeholder {
   only screen and (min-width: 992px) and (max-width: 1199px),
   md,
   (max-width: 767px) {
-  .bostami-section-title-wrap .section-title {
+  .mt-section-title-wrap .section-title {
     font-size: 24px;
   }
 }
@@ -2070,53 +2070,53 @@ textarea:focus::placeholder {
   }
 }
 
-.bostami-page-area .bostami-page-wrap {
+.mt-page-area .mt-page-wrap {
   background: #fff;
   border-radius: 20px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px),
   only screen and (min-width: 768px) and (max-width: 991px) {
-  .bostami-page-area .bostami-page-wrap:is(.pl-80) {
+  .mt-page-area .mt-page-wrap:is(.pl-80) {
     padding-left: 40px;
   }
 }
 @media (max-width: 767px) {
-  .bostami-page-area .bostami-page-wrap:is(.pl-80) {
+  .mt-page-area .mt-page-wrap:is(.pl-80) {
     padding-left: 20px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .bostami-page-area .bostami-page-wrap:is(.pl-80) {
+  .mt-page-area .mt-page-wrap:is(.pl-80) {
     padding-left: 30px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px),
   only screen and (min-width: 768px) and (max-width: 991px) {
-  .bostami-page-area .bostami-page-wrap:is(.pr-80) {
+  .mt-page-area .mt-page-wrap:is(.pr-80) {
     padding-right: 40px;
   }
 }
 @media (max-width: 767px) {
-  .bostami-page-area .bostami-page-wrap:is(.pr-80) {
+  .mt-page-area .mt-page-wrap:is(.pr-80) {
     padding-right: 20px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .bostami-page-area .bostami-page-wrap:is(.pr-80) {
+  .mt-page-area .mt-page-wrap:is(.pr-80) {
     padding-right: 30px;
   }
 }
-.bostami-page-area .bostami-parsonal-info-contact .title {
+.mt-page-area .mt-personal-info-contact .title {
   font-weight: 500;
 }
-.bostami-page-area .section-title {
+.mt-page-area .section-title {
   font-weight: 500;
 }
-.bostami-page-area .bostami-parsonal-info-title {
+.mt-page-area .mt-personal-info-title {
   font-weight: 500;
   margin-bottom: 11px;
 }
-.bostami-page-area .page-title::after {
+.mt-page-area .page-title::after {
   background: rgb(84, 162, 220);
   background: linear-gradient(
     97deg,
@@ -2125,18 +2125,18 @@ textarea:focus::placeholder {
   );
 }
 @media (max-width: 767px) {
-  .bostami-page-area .page-title::after {
+  .mt-page-area .page-title::after {
     width: 40%;
   }
 }
-.bostami-page-area .bostami-parsonal-info-img {
+.mt-page-area .mt-personal-info-img {
   width: 100%;
   height: 400px;
   margin: 0;
   border-radius: 30px;
   margin-bottom: 80px;
 }
-.bostami-page-area .bostami-parsonal-info-contact {
+.mt-page-area .mt-personal-info-contact {
   background: transparent;
   padding: 20px 0px;
   margin-top: -13px;
@@ -2164,7 +2164,7 @@ textarea:focus::placeholder {
   padding-bottom: 80px;
 }
 
-.home-3 .bostami-header-area {
+.home-3 .mt-header-area {
   margin-bottom: 30px; /* 240px */
   background-color: transparent;
 }
@@ -2172,11 +2172,11 @@ textarea:focus::placeholder {
   only screen and (min-width: 992px) and (max-width: 1199px),
   only screen and (min-width: 768px) and (max-width: 991px),
   (max-width: 767px) {
-  .home-3 .bostami-header-area {
+  .home-3 .mt-header-area {
     margin-bottom: 30px; /* 40px */
   }
 }
-.home-3 .bostami-header-area .bostami-header-wrap {
+.home-3 .mt-header-area .mt-header-wrap {
   background-color: transparent;
 }
 
@@ -2191,23 +2191,23 @@ textarea:focus::placeholder {
 04. header
 ******************************************************* 
 *************************************************************** */
-.bostami-header-wrap {
+.mt-header-wrap {
   background: var(--light-white);
   padding: 20px;
   border-radius: 12px;
 }
 
-.bostami-header-menu-btn {
+.mt-header-menu-btn {
   display: flex;
   align-items: center;
   justify-content: flex-end;
 }
-.bostami-header-menu-btn .menu-btn {
+.mt-header-menu-btn .menu-btn {
   position: relative;
   display: inline-flex;
   width: 26px;
   height: 26px;
-  background: linear-gradient(180deg, #fa5252 0%, #e12a72 100%);
+  background: linear-gradient(180deg, #54A2DC 0%, #094195 100%);
   border-radius: 50%;
   text-align: center;
   justify-content: center;
@@ -2216,7 +2216,7 @@ textarea:focus::placeholder {
   transition: 1s;
   overflow: hidden;
 }
-.bostami-header-menu-btn .menu-btn:hover {
+.mt-header-menu-btn .menu-btn:hover {
   background: linear-gradient(180deg, #1b74e4 0%, #1b74e4 100%);
 }
 
@@ -2409,7 +2409,7 @@ textarea:focus::placeholder {
 .main-style-2 {
   background-color: transparent;
 }
-.main-style-2 .bostami-main-menu-wrap {
+.main-style-2 .mt-main-menu-wrap {
   width: unset;
   background: transparent;
   border-radius: 0px;
@@ -2418,13 +2418,13 @@ textarea:focus::placeholder {
   top: unset;
   display: inline-block;
 }
-.main-style-2 .bostami-main-menu-wrap .bastami-main-menu {
+.main-style-2 .mt-main-menu-wrap .bastami-main-menu {
   display: inline-block;
 }
-.main-style-2 .bostami-main-menu-wrap .bastami-main-menu ul {
+.main-style-2 .mt-main-menu-wrap .bastami-main-menu ul {
   display: inline-block;
 }
-.main-style-2 .bostami-main-menu-wrap .bastami-main-menu ul li {
+.main-style-2 .mt-main-menu-wrap .bastami-main-menu ul li {
   display: inline-block;
   background-color: var(--light-white);
   border-radius: 8px;
@@ -2435,7 +2435,7 @@ textarea:focus::placeholder {
   margin-bottom: 0;
 }
 .main-style-2
-  .bostami-main-menu-wrap
+  .mt-main-menu-wrap
   .bastami-main-menu
   ul
   li:not(:first-child) {
@@ -2443,14 +2443,14 @@ textarea:focus::placeholder {
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .main-style-2
-    .bostami-main-menu-wrap
+    .mt-main-menu-wrap
     .bastami-main-menu
     ul
     li:not(:first-child) {
     margin-left: 5px;
   }
 }
-.main-style-2 .bostami-main-menu-wrap .bastami-main-menu ul li a {
+.main-style-2 .mt-main-menu-wrap .bastami-main-menu ul li a {
   background: #fff;
   border-radius: 8px;
   padding: 0px 19px;
@@ -2459,11 +2459,11 @@ textarea:focus::placeholder {
   line-height: 40px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .main-style-2 .bostami-main-menu-wrap .bastami-main-menu ul li a {
+  .main-style-2 .mt-main-menu-wrap .bastami-main-menu ul li a {
     padding: 0px 10px;
   }
 }
-.main-style-2 .bostami-main-menu-wrap .bastami-main-menu ul li a:hover {
+.main-style-2 .mt-main-menu-wrap .bastami-main-menu ul li a:hover {
   background: rgb(84, 162, 220);
   background: linear-gradient(
     97deg,
@@ -2471,15 +2471,15 @@ textarea:focus::placeholder {
     rgb(9, 65, 149) 100%
   );
 }
-.main-style-2 .bostami-main-menu-wrap .bastami-main-menu ul li a span {
+.main-style-2 .mt-main-menu-wrap .bastami-main-menu ul li a span {
   display: inline-block;
   margin-bottom: 0;
   margin-right: 5px;
 }
-.main-style-2 .bostami-main-menu-wrap .bastami-main-menu ul li a span svg {
+.main-style-2 .mt-main-menu-wrap .bastami-main-menu ul li a span svg {
   width: 20px;
 }
-.main-style-2 .bostami-main-menu-wrap .bastami-main-menu ul li:is(.active) a {
+.main-style-2 .mt-main-menu-wrap .bastami-main-menu ul li:is(.active) a {
   background: rgb(84, 162, 220);
   background: linear-gradient(
     97deg,
@@ -2488,7 +2488,7 @@ textarea:focus::placeholder {
   );
 }
 
-.bostami-header-logo {
+.mt-header-logo {
   flex: 0 0 auto;
 }
 
@@ -2504,16 +2504,16 @@ textarea:focus::placeholder {
   }
 }
 
-.page-wrapper.page-wrapper-2 .bostami-header-logo .site-logo img {
+.page-wrapper.page-wrapper-2 .mt-header-logo .site-logo img {
   width: 150px;
 }
 @media (max-width: 767px) {
-  .page-wrapper.page-wrapper-2 .bostami-header-logo .site-logo img {
+  .page-wrapper.page-wrapper-2 .mt-header-logo .site-logo img {
     width: 110px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .page-wrapper.page-wrapper-2 .bostami-header-logo .site-logo img {
+  .page-wrapper.page-wrapper-2 .mt-header-logo .site-logo img {
     width: 150px;
   }
 }
@@ -2530,14 +2530,14 @@ textarea:focus::placeholder {
     margin-bottom: 0;
   }
 }
-.home-3 .bostami-main-menu-wrap {
+.home-3 .mt-main-menu-wrap {
   width: unset;
   position: unset;
   display: inline-block;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px),
   (max-width: 767px) {
-  .home-3 .bostami-main-menu-wrap {
+  .home-3 .mt-main-menu-wrap {
     display: none;
   }
 }
@@ -2563,11 +2563,11 @@ textarea:focus::placeholder {
   );
 }
 
-.inner-page .bostami-header-wrap {
+.inner-page .mt-header-wrap {
   padding: 20px 0;
 }
 
-.home-3 .bostami-header-menu-btn .menu-btn {
+.home-3 .mt-header-menu-btn .menu-btn {
   width: 40px;
   height: 40px;
 }
@@ -2579,24 +2579,24 @@ textarea:focus::placeholder {
   );
 }
 
-.home-1 .bostami-header-area {
+.home-1 .mt-header-area {
   margin-bottom: 30px; /* 205px */
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px),
   only screen and (min-width: 992px) and (max-width: 1199px),
   only screen and (min-width: 768px) and (max-width: 991px),
   (max-width: 767px) {
-  .home-1 .bostami-header-area {
+  .home-1 .mt-header-area {
     margin-bottom: 30px; /* 50px */
   }
 }
-.home-1 .bostami-header-wrap {
+.home-1 .mt-header-wrap {
   margin-left: -112px;
   margin-right: -70px;
   background-color: transparent;
 }
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
-  .home-1 .bostami-header-wrap {
+  .home-1 .mt-header-wrap {
     margin-left: -50px;
     margin-right: -40px;
   }
@@ -2605,23 +2605,23 @@ textarea:focus::placeholder {
   only screen and (min-width: 992px) and (max-width: 1199px),
   only screen and (min-width: 768px) and (max-width: 991px),
   (max-width: 767px) {
-  .home-1 .bostami-header-wrap {
+  .home-1 .mt-header-wrap {
     margin-left: 0px;
     margin-right: 0px;
   }
 }
-.home-1 .bostami-header-menu-btn .menu-btn {
+.home-1 .mt-header-menu-btn .menu-btn {
   width: 40px;
   height: 40px;
 }
 @media (min-width: 1800px),
   only screen and (min-width: 1600px) and (max-width: 1799px),
   only screen and (min-width: 1400px) and (max-width: 1599px) {
-  .home-1 .bostami-header-menu-btn .menu-btn {
+  .home-1 .mt-header-menu-btn .menu-btn {
     display: none;
   }
 }
-.home-1 .bostami-header-menu-btn .menu-btn {
+.home-1 .mt-header-menu-btn .menu-btn {
   background: #1b74e4;
 }
 .home-1 .mobile-menu-wrap .mobile-menu .mean-bar .mean-nav ul li:is(.active) a {
@@ -2684,10 +2684,10 @@ textarea:focus::placeholder {
 /*
 ************
 *************************
-05. parsonal info
+05. personal info
 ******************************************************* 
 *************************************************************** */
-.bostami-parsonal-info-area {
+.mt-personal-info-area {
   width: 400px;
   border-radius: 20px;
   background-color: var(--common-white);
@@ -2698,13 +2698,13 @@ textarea:focus::placeholder {
   top: 100px;
 }
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
-  .bostami-parsonal-info-area {
+  .mt-personal-info-area {
     width: 340px;
     margin-left: -40px;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .bostami-parsonal-info-area {
+  .mt-personal-info-area {
     width: 100%;
     margin-left: 0px;
     padding: 30px 15px;
@@ -2713,7 +2713,7 @@ textarea:focus::placeholder {
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px),
   only screen and (min-width: 768px) and (max-width: 991px) {
-  .bostami-parsonal-info-area {
+  .mt-personal-info-area {
     width: 100%;
     margin-left: 0px;
     margin-bottom: 30px;
@@ -2721,7 +2721,7 @@ textarea:focus::placeholder {
   }
 }
 @media (max-width: 767px) {
-  .bostami-parsonal-info-area {
+  .mt-personal-info-area {
     width: 100%;
     margin-left: 0px;
     margin-bottom: 30px;
@@ -2729,11 +2729,11 @@ textarea:focus::placeholder {
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .bostami-parsonal-info-area {
+  .mt-personal-info-area {
     padding: 40px 30px;
   }
 }
-.bostami-parsonal-info-img {
+.mt-personal-info-img {
   width: 240px;
   height: 240px;
   border-radius: 20px;
@@ -2743,7 +2743,7 @@ textarea:focus::placeholder {
   margin-top: -180px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .bostami-parsonal-info-img {
+  .mt-personal-info-img {
     width: 210px;
     height: 210px;
     margin-top: 0px;
@@ -2752,16 +2752,16 @@ textarea:focus::placeholder {
 @media only screen and (min-width: 992px) and (max-width: 1199px),
   only screen and (min-width: 768px) and (max-width: 991px),
   (max-width: 767px) {
-  .bostami-parsonal-info-img {
+  .mt-personal-info-img {
     margin-top: 0px;
   }
 }
-.bostami-parsonal-info-img img {
+.mt-personal-info-img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-.bostami-parsonal-info-name {
+.mt-personal-info-name {
   font-size: 26px;
   text-transform: capitalize;
   font-weight: 500;
@@ -2776,17 +2776,17 @@ textarea:focus::placeholder {
   color: #fff;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .bostami-parsonal-info-name {
+  .mt-personal-info-name {
     font-size: 20px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px),
   (max-width: 767px) {
-  .bostami-parsonal-info-name {
+  .mt-personal-info-name {
     font-size: 22px;
   }
 }
-.bostami-parsonal-info-bio {
+.mt-personal-info-bio {
   font-size: 14px;
   display: inline-block;
   font-weight: 500;
@@ -2800,15 +2800,15 @@ textarea:focus::placeholder {
 @media only screen and (min-width: 1200px) and (max-width: 1399px),
   only screen and (min-width: 768px) and (max-width: 991px),
   (max-width: 767px) {
-  .bostami-parsonal-info-bio {
+  .mt-personal-info-bio {
     font-size: 14px;
   }
 }
-.bostami-parsonal-info-social-link li {
+.mt-personal-info-social-link li {
   display: inline-block;
   margin: 0 4px;
 }
-.bostami-parsonal-info-social-link li a {
+.mt-personal-info-social-link li a {
   display: inline-block;
   width: 40px;
   height: 40px;
@@ -2817,48 +2817,48 @@ textarea:focus::placeholder {
   text-align: center;
   line-height: 40px;
 }
-.bostami-parsonal-info-social-link li a:hover {
+.mt-personal-info-social-link li a:hover {
   background-color: var(--theme-primary);
 }
-.bostami-parsonal-info-social-link li a:hover {
+.mt-personal-info-social-link li a:hover {
   color: var(--common-white-two) !important;
 }
-.bostami-parsonal-info-social-link li a {
+.mt-personal-info-social-link li a {
   color: #1c9cea;
   font-size: 20px;
 }
-.bostami-parsonal-info-contact {
+.mt-personal-info-contact {
   background-color: var(--light-white);
   border-radius: 16px;
   text-align: left;
   padding: 20px 30px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .bostami-parsonal-info-contact {
+  .mt-personal-info-contact {
     padding: 20px 15px;
   }
 }
 @media (max-width: 767px) {
-  .bostami-parsonal-info-contact {
+  .mt-personal-info-contact {
     padding: 20px 15px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .bostami-parsonal-info-contact {
+  .mt-personal-info-contact {
     padding: 20px 30px;
   }
 }
-.bostami-parsonal-info-contact-item {
+.mt-personal-info-contact-item {
   display: flex;
   align-items: center;
   gap: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
-.bostami-parsonal-info-contact-item:not(:first-child) {
+.mt-personal-info-contact-item:not(:first-child) {
   border-top: 1px solid #e3e3e3;
 }
-.bostami-parsonal-info-contact-item .icon {
+.mt-personal-info-contact-item .icon {
   flex: 0 0 auto;
   display: inline-block;
   width: 44px;
@@ -2871,26 +2871,25 @@ textarea:focus::placeholder {
   transition: 0.3s;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .bostami-parsonal-info-contact-item .icon {
+  .mt-personal-info-contact-item .icon {
     width: 35px;
     height: 35px;
     line-height: 35px;
     transition: 0.3s;
   }
 }
-.bostami-parsonal-info-contact-item .icon svg * {
+.mt-personal-info-contact-item .icon svg * {
   transition: 0.3s;
 }
-.bostami-parsonal-info-contact-item .icon:hover {
+.mt-personal-info-contact-item .icon:hover {
   background-color: var(--theme-primary);
   color: var(--common-white-two) !important;
 }
-.bostami-parsonal-info-contact-item .icon:hover {
-}
-.bostami-parsonal-info-contact-item .text {
+
+.mt-personal-info-contact-item .text {
   display: inline-block;
 }
-.bostami-parsonal-info-contact-item .text span {
+.mt-personal-info-contact-item .text span {
   display: block;
   font-size: 12px;
   line-height: 18px;
@@ -2898,38 +2897,38 @@ textarea:focus::placeholder {
   font-weight: 400;
   margin-bottom: 3px;
 }
-.bostami-parsonal-info-contact-item .text p {
-  font-size: 16px; 
+.mt-personal-info-contact-item .text p {
+  font-size: 0.75rem; /* 16px */
   line-height: 24px;
   font-weight: 400;
   color: var(--common-black);
   text-transform: capitalize;
   margin-bottom: 0;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .bostami-parsonal-info-contact-item .text p {
+/* @media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .mt-personal-info-contact-item .text p {
     font-size: 14px;
   }
 }
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
-  .bostami-parsonal-info-contact-item .text p {
+  .mt-personal-info-contact-item .text p {
     font-size: 14px; 
   }
-}
+} */
 
-.bostami-parsonal-info-area.bostami-parsonal-info-2-area {
+.mt-personal-info-area.mt-personal-info-2-area {
   background-color: transparent;
   width: unset;
   margin-left: 0;
   position: unset;
 }
 @media (min-width: 1920px) {
-  .bostami-parsonal-info-area.bostami-parsonal-info-2-area {
+  .mt-personal-info-area.mt-personal-info-2-area {
     margin-top: 50px;
   }
 }
-.bostami-parsonal-info-area.bostami-parsonal-info-2-area
-  .bostami-parsonal-info-img {
+.mt-personal-info-area.mt-personal-info-2-area
+  .mt-personal-info-img {
   width: 280px;
   height: 280px;
   border-radius: 50%;
@@ -2940,19 +2939,19 @@ textarea:focus::placeholder {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px),
   (max-width: 767px) {
-  .bostami-parsonal-info-area.bostami-parsonal-info-2-area
-    .bostami-parsonal-info-img {
+  .mt-personal-info-area.mt-personal-info-2-area
+    .mt-personal-info-img {
     width: 240px;
     height: 240px;
   }
 }
-.bostami-parsonal-info-area.bostami-parsonal-info-2-area
-  .bostami-parsonal-info-bio {
+.mt-personal-info-area.mt-personal-info-2-area
+  .mt-personal-info-bio {
   background: transparent;
   color: #7b7b7b;
 }
-.bostami-parsonal-info-area.bostami-parsonal-info-2-area
-  .bostami-parsonal-info-social-link
+.mt-personal-info-area.mt-personal-info-2-area
+  .mt-personal-info-social-link
   li
   a:hover {
   background: linear-gradient(
@@ -2962,24 +2961,24 @@ textarea:focus::placeholder {
   );
 }
 
-.bostami-parsonal-info-area.about-2-page {
+.mt-personal-info-area.about-2-page {
   width: 100%;
   margin-left: 0;
   background: transparent;
   position: unset;
   padding: 0;
 }
-.bostami-parsonal-info-area.about-2-page .bostami-page-title-wrap {
+.mt-personal-info-area.about-2-page .mt-page-title-wrap {
   text-align: left;
 }
-.bostami-parsonal-info-area.about-2-page .bostami-parsonal-info-img {
+.mt-personal-info-area.about-2-page .mt-personal-info-img {
   width: 100%;
   height: 400px;
   margin-bottom: 0;
   margin-top: 0;
 }
 
-.page-wrapper-2 .bostami-parsonal-info-contact-item .icon:hover {
+.page-wrapper-2 .mt-personal-info-contact-item .icon:hover {
   background: linear-gradient(
     97deg,
     rgb(84, 162, 220) 0%,
@@ -2987,28 +2986,28 @@ textarea:focus::placeholder {
   );
 }
 
-.home-3 .bostami-parsonal-info-area {
+.home-3 .mt-personal-info-area {
   width: 100%;
   margin-left: 0;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .home-3 .bostami-parsonal-info-contact {
+  .home-3 .mt-personal-info-contact {
     padding: 20px 10px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .home-3 .bostami-parsonal-info-contact-item .text p {
+  .home-3 .mt-personal-info-contact-item .text p {
     font-size: 14px; 
   }
 }
-.home-3 .bostami-parsonal-info-social-link li a:hover {
+.home-3 .mt-personal-info-social-link li a:hover {
   background: linear-gradient(
     97deg,
     rgb(84, 162, 220) 0%,
     rgb(9, 65, 149) 100%
   );
 }
-.home-3 .bostami-parsonal-info-contact-item .icon:hover {
+.home-3 .mt-personal-info-contact-item .icon:hover {
   background: linear-gradient(
     97deg,
     rgb(84, 162, 220) 0%,
@@ -3022,17 +3021,17 @@ textarea:focus::placeholder {
 06. client
 ******************************************************* 
 *************************************************************** */
-.bostami-client {
+.mt-client {
   padding-top: 40px;
   padding-bottom: 70px;
   background-color: var(--light-white-2);
 }
-.bostami-client-slider-logo {
+.mt-client-slider-logo {
   padding: 0px 15px;
   height: 62px;
 }
 
-.bostami-main-menu-wrap {
+.mt-main-menu-wrap {
   width: 144px;
   background: white;
   border-radius: 16px;
@@ -3041,13 +3040,13 @@ textarea:focus::placeholder {
   top: -45px;
 }
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
-  .bostami-main-menu-wrap {
+  .mt-main-menu-wrap {
     width: 120px;
     padding: 18px;
   }
 }
 
-.bostami-client-slider .swiper-slide {
+.mt-client-slider .swiper-slide {
   text-align: center !important;
 }
 
@@ -3057,7 +3056,7 @@ textarea:focus::placeholder {
 07. what do
 ******************************************************* 
 *************************************************************** */
-.bostami-what-do-item {
+.mt-what-do-item {
   border-radius: 12px;
   display: flex;
   gap: 20px;
@@ -3066,16 +3065,16 @@ textarea:focus::placeholder {
   margin-bottom: 30px;
 }
 @media (max-width: 767px) {
-  .bostami-what-do-item {
+  .mt-what-do-item {
     flex-wrap: wrap;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .bostami-what-do-item {
+  .mt-what-do-item {
     flex-wrap: nowrap;
   }
 }
-.bostami-what-do-item .text .title {
+.mt-what-do-item .text .title {
   margin-bottom: 10px;
   font-size: 20px;
   font-weight: 500;
@@ -3084,43 +3083,43 @@ textarea:focus::placeholder {
 @media only screen and (min-width: 1200px) and (max-width: 1399px),
   lg,
   only screen and (min-width: 768px) and (max-width: 991px) {
-  .bostami-what-do-item .text .title {
+  .mt-what-do-item .text .title {
     font-size: 22px;
   }
 }
 @media (max-width: 767px) {
-  .bostami-what-do-item .text .title {
+  .mt-what-do-item .text .title {
     font-size: 22px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .bostami-what-do-item .text .title {
+  .mt-what-do-item .text .title {
     font-size: 24px;
   }
 }
-.bostami-what-do-item .text p {
+.mt-what-do-item .text p {
   margin-bottom: 0;
   line-height: 30px;
 }
 
-.bostami-page-wrap .client-2-wrap {
+.mt-page-wrap .client-2-wrap {
   border-radius: 20px;
   padding-left: 25px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .page-wrapper-2 .bostami-what-do-item {
+  .page-wrapper-2 .mt-what-do-item {
     flex-wrap: wrap;
   }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .home-3 .bostami-what-do-item {
+  .home-3 .mt-what-do-item {
     flex-wrap: wrap;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .home-3 .bostami-what-do-item .text .title {
+  .home-3 .mt-what-do-item .text .title {
     font-size: 20px;
   }
 }
@@ -3133,33 +3132,33 @@ textarea:focus::placeholder {
 *************************************************************** */
 @media only screen and (min-width: 768px) and (max-width: 991px),
   (max-width: 767px) {
-  .bostami-card-wrap {
+  .mt-card-wrap {
     margin-bottom: 50px;
   }
 }
 
-.bostami-card-item {
+.mt-card-item {
   padding: 20px;
   border-radius: 12px;
   padding-top: 25px;
 }
-.bostami-card-item .card-subtitle {
+.mt-card-item .card-subtitle {
   display: block;
   font-size: 14px;
   font-weight: 400;
   line-height: 1;
   margin-bottom: 9px;
 }
-.bostami-card-item .card-title {
+.mt-card-item .card-title {
   font-size: 18px;
   font-weight: 400;
   color: var(--heading-black);
   margin-bottom: 4px;
 }
-.bostami-card-item .card-title span {
+.mt-card-item .card-title span {
   color: var(--body-text);
 }
-.bostami-card-item .card-text {
+.mt-card-item .card-text {
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 0;
@@ -3235,13 +3234,13 @@ textarea:focus::placeholder {
 }
 
 @media (max-width: 767px) {
-  .bostami-resume-page {
+  .mt-resume-page {
     padding-left: 20px;
     padding-right: 20px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .bostami-resume-page {
+  .mt-resume-page {
     padding-left: 60px;
     padding-right: 60px;
   }
@@ -3471,14 +3470,14 @@ textarea:focus::placeholder {
 }
 @media (max-width: 767px) {
   .portfolio-modal-box .modal-dialog .modal-content .modal-header .close {
-    border-color: #e12a72;
-    color: #e12a72;
+    border-color: #094195;
+    color: #094195;
   }
 }
 .portfolio-modal-box .modal-dialog .modal-content .modal-header .close:hover {
   rotate: 90deg;
-  border-color: #e12a72;
-  color: #e12a72;
+  border-color: #094195;
+  color: #094195;
 }
 .portfolio-modal-box .modal-dialog .modal-content .modal-body .h1-modal-img {
   border-radius: 15px;
@@ -3488,7 +3487,7 @@ textarea:focus::placeholder {
 .portfolio-modal-box .modal-dialog .modal-content .modal-body .blog-title {
   font-size: 28px;
   text-align: center;
-  color: #fa5252;
+  color: #54A2DC;
   margin-bottom: 35px;
 }
 @media (max-width: 767px) {
@@ -3579,7 +3578,7 @@ textarea:focus::placeholder {
   .portfolio-modal-table
   .portfolio-modal-table-text
   a:hover {
-  color: #fa5252;
+  color: #54A2DC;
 }
 .portfolio-modal-box
   .modal-dialog
@@ -3613,23 +3612,23 @@ textarea:focus::placeholder {
   }
 }
 .page-wrapper-2 .fillter-btn-wrap .fillter-btn:hover {
-  color: #fa5252;
+  color: #54A2DC;
 }
 .page-wrapper-2 .fillter-btn-wrap .fillter-btn.is-checked {
-  color: #fa5252;
+  color: #54A2DC;
 }
 .page-wrapper-2 .fillter-item .item-title:hover {
-  color: #fa5252;
+  color: #54A2DC;
 }
 
 .home-3 .fillter-btn-wrap .fillter-btn:is(.is-checked) {
-  color: #fa5252;
+  color: #54A2DC;
 }
 .home-3 .fillter-btn-wrap .fillter-btn:hover {
-  color: #fa5252;
+  color: #54A2DC;
 }
 .home-3 .fillter-item .item-title:hover {
-  color: #fa5252;
+  color: #54A2DC;
 }
 
 /*
@@ -3828,14 +3827,14 @@ textarea:focus::placeholder {
 }
 @media (max-width: 767px) {
   .modal-header .close {
-    border-color: #e12a72;
-    color: #e12a72;
+    border-color: #094195;
+    color: #094195;
   }
 }
 .modal-header .close:hover {
   rotate: 90deg;
-  border-color: #e12a72;
-  color: #e12a72;
+  border-color: #094195;
+  color: #094195;
 }
 .h1-modal-box .modal-dialog .modal-content .modal-body .h1-modal-img {
   border-radius: 15px;
@@ -3867,7 +3866,7 @@ textarea:focus::placeholder {
 .h1-modal-box .modal-dialog .modal-content .modal-body .h1-modal-comment-item {
   display: flex;
   gap: 30px;
-  border: 1px solid #fa5252;
+  border: 1px solid #54A2DC;
   border-radius: 15px;
   padding: 20px;
   margin-top: 50px;
@@ -3954,7 +3953,7 @@ textarea:focus::placeholder {
   .h1-modal-comment-item
   .content
   .reply-btn:hover {
-  color: #fa5252;
+  color: #54A2DC;
 }
 .h1-modal-box
   .modal-dialog
@@ -4002,7 +4001,7 @@ textarea:focus::placeholder {
   outline: none;
   padding: 8px 20px;
   border-radius: 20px;
-  background: linear-gradient(180deg, #fa5252 0%, #e12a72 100%);
+  background: linear-gradient(180deg, #54A2DC 0%, #094195 100%);
   color: white;
 }
 .h1-modal-box
@@ -4011,20 +4010,20 @@ textarea:focus::placeholder {
   .modal-body
   .h1-modal-comment-box
   button:hover {
-  background: linear-gradient(80deg, #fa5252 0%, #e12a72 100%);
+  background: linear-gradient(80deg, #54A2DC 0%, #094195 100%);
 }
 
 .page-wrapper-2 .blog-slider-wrap .blog-progation span {
-  border: 1px solid #fa5252 !important;
+  border: 1px solid #54A2DC !important;
 }
 .page-wrapper-2
   .blog-slider-wrap
   .blog-progation
   span:is(.swiper-pagination-bullet-active) {
-  background-color: #fa5252;
+  background-color: #54A2DC;
 }
 .page-wrapper-2 .blog-slider-single .blog-title:hover {
-  color: #fa5252;
+  color: #54A2DC;
 }
 
 .home-3 .blog-slider-wrap .blog-progation span {
@@ -4037,7 +4036,7 @@ textarea:focus::placeholder {
   background-color: #f95054;
 }
 .home-3 .blog-slider-single .blog-title:hover {
-  color: #fa5252;
+  color: #54A2DC;
 }
 
 /*
@@ -4097,60 +4096,110 @@ textarea:focus::placeholder {
   height: 40px;
 }
 
-.bostami-contact-item {
+.mt-contact-item {
   display: flex;
   gap: 20px;
   padding: 30px;
   border-radius: 10px;
+  overflow: hidden;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .bostami-contact-item {
+  .mt-contact-item {
     padding: 20px;
   }
 }
 @media (max-width: 767px) {
-  .bostami-contact-item {
+  .mt-contact-item {
     padding: 20px;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .bostami-contact-item {
+  .mt-contact-item {
     padding: 30px;
     flex-wrap: nowrap;
   }
 }
-.bostami-contact-item .icon {
+.mt-contact-item .icon {
   flex: 0 0 auto;
   width: 35px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .bostami-contact-item .icon {
+  .mt-contact-item .icon {
     width: 40px;
   }
 }
 @media (max-width: 767px) {
-  .bostami-contact-item .icon {
+  .mt-contact-item .icon {
     width: 40px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .bostami-contact-item .icon {
+  .mt-contact-item .icon {
     width: 80px;
   }
 }
-.bostami-contact-item .text .title {
-  font-size: 20px;
+.mt-contact-item .text .title {
+  font-size: 1rem; /* 20px */
   font-weight: 500;
   line-height: 30px;
   margin-bottom: 10px;
 }
-.bostami-contact-item .text span {
+.mt-contact-item .text span {
   display: block;
-  font-size: 18px;
+  font-size: 0.8rem; /* 18px */
   font-weight: 400;
   color: #44566c;
   line-height: 30px;
+  
+}
+
+@media only screen and (min-width: 300px) and (max-width: 399px) {
+  .mt-contact-item .text .title {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+  .mt-contact-item .text span {
+    display: block;
+    font-size: 10px;
+    font-weight: 400;
+    color: #44566c;
+    line-height: 30px;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 780px) {
+  .mt-contact-item .text .title {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+  .mt-contact-item .text span {
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    color: #44566c;
+    line-height: 30px;
+  }
+}
+
+@media only screen and (min-width: 950px) and (max-width: 1100) {
+  .mt-contact-item .text .title {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+  .mt-contact-item .text span {
+    display: block;
+    font-size: 10px;
+    font-weight: 400;
+    color: #44566c;
+    line-height: 30px;
+  }
 }
 
 /*
@@ -4779,20 +4828,20 @@ textarea:focus::placeholder {
   overflow-y: scroll;
 }
 
-.dark-theme .page-wrapper .bostami-header-wrap,
-.dark-theme .page-wrapper .bostami-parsonal-info-area,
-.dark-theme .page-wrapper .bostami-main-menu-wrap {
+.dark-theme .page-wrapper .mt-header-wrap,
+.dark-theme .page-wrapper .mt-personal-info-area,
+.dark-theme .page-wrapper .mt-main-menu-wrap {
   background-color: #000;
 }
 .dark-theme .page-wrapper .mobile-menu-wrap .mobile_menu .mean-bar,
 .dark-theme .page-wrapper .mobile-menu-wrap .mobile_menu .mean-bar .mean-nav,
-.dark-theme .page-wrapper .bostami-parsonal-info-contact,
-.dark-theme .page-wrapper .bostami-parsonal-info-bio,
-.dark-theme .page-wrapper .bostami-parsonal-info-social-link li a,
+.dark-theme .page-wrapper .mt-personal-info-contact,
+.dark-theme .page-wrapper .mt-personal-info-bio,
+.dark-theme .page-wrapper .mt-personal-info-social-link li a,
 .dark-theme
   .page-wrapper
   .main-style-2
-  .bostami-main-menu-wrap
+  .mt-main-menu-wrap
   .bastami-main-menu
   ul
   li
@@ -4808,7 +4857,7 @@ textarea:focus::placeholder {
   background-color: #1c1c1c;
 }
 .dark-theme .page-wrapper .bastami-main-menu ul li,
-.dark-theme .page-wrapper .bostami-contact-item {
+.dark-theme .page-wrapper .mt-contact-item {
   background-color: #212425;
 }
 .dark-theme .page-wrapper .bastami-main-menu ul li.active a {
@@ -4823,8 +4872,8 @@ textarea:focus::placeholder {
 .dark-theme .page-wrapper .bastami-main-menu ul li:hover {
   background-color: #1b74e4;
 }
-.dark-theme .page-wrapper .bostami-what-do-item,
-.dark-theme .page-wrapper .bostami-card-item,
+.dark-theme .page-wrapper .mt-what-do-item,
+.dark-theme .page-wrapper .mt-card-item,
 .dark-theme .page-wrapper .form-btn,
 .dark-theme
   .page-wrapper
@@ -4837,7 +4886,7 @@ textarea:focus::placeholder {
   a {
   background-color: transparent;
 }
-.dark-theme .page-wrapper .bostami-parsonal-info-social-link li a:hover {
+.dark-theme .page-wrapper .mt-personal-info-social-link li a:hover {
   background-color: #1b74e4;
 }
 .dark-theme .page-wrapper .btn-1:hover {
@@ -4853,12 +4902,12 @@ textarea:focus::placeholder {
   li
   a,
 .dark-theme .page-wrapper .btn-1,
-.dark-theme .page-wrapper .bostami-card-item .card-title,
+.dark-theme .page-wrapper .mt-card-item .card-title,
 .dark-theme .page-wrapper .form-btn {
   color: #fff;
 }
-.dark-theme .page-wrapper .bostami-parsonal-info-bio,
-.dark-theme .page-wrapper .bostami-contact-item .text span {
+.dark-theme .page-wrapper .mt-personal-info-bio,
+.dark-theme .page-wrapper .mt-contact-item .text span {
   color: #a6a6a6;
 }
 .dark-theme
@@ -4870,7 +4919,7 @@ textarea:focus::placeholder {
   ul
   li
   a:hover {
-  color: #fa5252;
+  color: #54A2DC;
 }
 .dark-theme
   .page-wrapper
@@ -4881,7 +4930,7 @@ textarea:focus::placeholder {
   ul
   li.active
   a {
-  color: #fa5252;
+  color: #54A2DC;
 }
 .dark-theme
   .page-wrapper
@@ -4922,7 +4971,7 @@ textarea:focus::placeholder {
   span
   svg
   * {
-  fill: #fa5252;
+  fill: #54A2DC;
 }
 .dark-theme
   .page-wrapper
@@ -4936,7 +4985,7 @@ textarea:focus::placeholder {
   span
   svg
   * {
-  fill: #fa5252;
+  fill: #54A2DC;
 }
 .dark-theme
   .page-wrapper
@@ -4964,8 +5013,8 @@ textarea:focus::placeholder {
   img {
   filter: saturate(25);
 }
-.dark-theme .page-wrapper .bostami-what-do-item,
-.dark-theme .page-wrapper .bostami-card-item,
+.dark-theme .page-wrapper .mt-what-do-item,
+.dark-theme .page-wrapper .mt-card-item,
 .dark-theme .page-wrapper .blog-slider-single,
 .dark-theme .page-wrapper .fillter-item {
   border: 1px solid #353535;
@@ -4973,7 +5022,7 @@ textarea:focus::placeholder {
 .dark-theme
   .page-wrapper-2
   .main-style-2
-  .bostami-main-menu-wrap
+  .mt-main-menu-wrap
   .bastami-main-menu
   ul
   li
@@ -4983,13 +5032,13 @@ textarea:focus::placeholder {
   filter: brightness(5);
 }
 
-.dark-theme .page-wrapper-2 .bostami-page-area .bostami-page-wrap {
+.dark-theme .page-wrapper-2 .mt-page-area .mt-page-wrap {
   background: #111;
 }
 .dark-theme
   .page-wrapper-2
   .main-style-2
-  .bostami-main-menu-wrap
+  .mt-main-menu-wrap
   .bastami-main-menu
   ul
   li
@@ -4999,21 +5048,21 @@ textarea:focus::placeholder {
   * {
   fill: white;
 }
-.dark-theme .page-wrapper-2 .bostami-header-wrap.main-style-2 {
+.dark-theme .page-wrapper-2 .mt-header-wrap.main-style-2 {
   background-color: transparent;
 }
-.dark-theme .page-wrapper-2 .bostami-main-menu-wrap {
+.dark-theme .page-wrapper-2 .mt-main-menu-wrap {
   background: transparent;
 }
 .dark-theme
   .page-wrapper-2
-  .bostami-parsonal-info-area.bostami-parsonal-info-2-area {
+  .mt-personal-info-area.mt-personal-info-2-area {
   background: transparent;
 }
-.dark-theme .page-wrapper-2 .bostami-page-area .bostami-parsonal-info-contact {
+.dark-theme .page-wrapper-2 .mt-page-area .mt-personal-info-contact {
   background-color: transparent;
 }
-.dark-theme .page-wrapper-2 .bostami-parsonal-info-contact-item .icon:hover {
+.dark-theme .page-wrapper-2 .mt-personal-info-contact-item .icon:hover {
   background: linear-gradient(
     97deg,
     rgb(84, 162, 220) 0%,
@@ -5026,10 +5075,10 @@ textarea:focus::placeholder {
 .dark-theme .home-3 .bastami-main-menu ul li:hover a span svg * {
   fill: white;
 }
-.dark-theme .home-3 .bostami-header-wrap {
+.dark-theme .home-3 .mt-header-wrap {
   background: transparent !important;
 }
-.dark-theme .home-3 .bostami-parsonal-info-social-link li a:hover {
+.dark-theme .home-3 .mt-personal-info-social-link li a:hover {
   background: linear-gradient(
     97deg,
     rgb(84, 162, 220) 0%,
@@ -5050,14 +5099,14 @@ textarea:focus::placeholder {
     rgb(9, 65, 149) 100%
   );
 }
-.dark-theme .home-3 .bostami-parsonal-info-contact-item .icon:hover {
+.dark-theme .home-3 .mt-personal-info-contact-item .icon:hover {
   background: linear-gradient(
     97deg,
     rgb(84, 162, 220) 0%,
     rgb(9, 65, 149) 100%
   );
 }
-.dark-theme .home-1 .bostami-header-wrap {
+.dark-theme .home-1 .mt-header-wrap {
   background: transparent;
 }
 .dark-theme .home-1 .bastami-main-menu ul li.active a span svg * {
@@ -5180,12 +5229,12 @@ textarea:focus::placeholder {
 }
 
 /*# sourceMappingURL=main.css.map */
-.dark-theme .bostami-parsonal-info-contact-item:not(:first-child) {
+.dark-theme .mt-personal-info-contact-item:not(:first-child) {
   border-color: #333;
 }
 .dark-theme .contact-form .input-box {
   border-bottom-color: #333;
 }
-.dark-theme .bostami-parsonal-info-btn .btn-2 {
+.dark-theme .mt-personal-info-btn .btn-2 {
   color: #fff;
 }

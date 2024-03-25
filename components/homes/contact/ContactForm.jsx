@@ -17,10 +17,10 @@ export default function ContactForm() {
       e.preventDefault();
       emailjs
         .sendForm(
-          "service_n4mkhz9",
-          "template_ugoztxr",
+          "service_u4xs1nd", // SERVICE_ID
+          "template_imqaowo", // TEMPLATE_ID
           form.current,
-          "user_vYmDSd9PwIuRXUQEDjYwN"
+          "8-K8OilxZSq_iIDlc" // USER_ID
         )
         .then(
           (result) => {
@@ -34,7 +34,7 @@ export default function ContactForm() {
               draggable: true,
               progress: undefined,
             });
-            document.getElementById("myFormOne").reset();
+            document.getElementById("myForm").reset();
           },
           (error) => {
             toast.error("Ops Message not Sent!", {
@@ -51,7 +51,7 @@ export default function ContactForm() {
     };
    
   return (
-    <form className="contact-form"  ref={form}
+    <form id="myForm" className="contact-form"  ref={form}
               onSubmit={sendEmail}>
                     <div className="form-input-item mb-60">
                 <label style={activeInputBoxes.includes('name')? {color:'#FE7878'}:{}} className="input-lebel name">name *</label>
@@ -59,6 +59,7 @@ export default function ContactForm() {
                   name="name"
                   className={`input-box name ${activeInputBoxes.includes('name') && 'height'} `}
                   type="text"
+                  placeholder="Full name"
                   required
                   onClick={()=>setActiveInputBoxes(pre=>!pre.includes('name') ? [...pre,'name'] : pre)}
                   style={activeInputBoxes.includes('name')? {borderColor:'#FE7878'}:{}}
@@ -70,6 +71,7 @@ export default function ContactForm() {
                   name="email"
                   className={`input-box gmail ${activeInputBoxes.includes('gmail') && 'height'} `}
                   type="Email"
+                  placeholder="Please enter a valid email"
                   required
                   onClick={()=>setActiveInputBoxes(pre=>!pre.includes('gmail') ? [...pre,'gmail'] : pre)}
                   style={activeInputBoxes.includes('gmail')? {borderColor:'#1B74E4'}:{}}
@@ -80,10 +82,11 @@ export default function ContactForm() {
                 <textarea
                   name="message"
                   className={`input-box message ${activeInputBoxes.includes('message') && 'height'} `}
+                  placeholder="Let's chat! Tell me more about your project."
                   onClick={()=>setActiveInputBoxes(pre=>!pre.includes('message') ? [...pre,'message'] : pre)}
                   style={activeInputBoxes.includes('message')? {borderColor:'#CE65F3'}:{}}
                   cols="30"
-                  rows="10"
+                  rows="20"
                 ></textarea>
               </div>
                     <div className="form-btn-wrap">

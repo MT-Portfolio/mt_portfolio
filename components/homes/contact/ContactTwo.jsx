@@ -8,28 +8,28 @@ export default function ContactTwo() {
   
 
   return (
-    <div className="bostami-page-area z-index-3">
+    <div className="mt-page-area z-index-3">
       <div className="container">
-        <div className="bostami-page-wrap pt-60 pl-80 pr-80">
+        <div className="mt-page-wrap pt-60 pl-80 pr-80">
           <div className="page-tilte-2-wrap">
             <div className="row">
               <div className="col-12">
-                <div className="bostami-page-title-wrap mb-40">
+                <div className="mt-page-title-wrap mb-40">
                   <h2 className="page-title">contact</h2>
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="bostami-contact-2-wrap">
+          <div className="mt-contact-2-wrap">
             <div className="row">
               <div className="col-xl-4 col-lg-12">
-                <div className="bostami-contact-2-item-wrap mb-60">
+                <div className="mt-contact-2-item-wrap mb-60">
                   <div className="row">
                     {contactItems.map((elm, i) => (
                       <div key={i} className="col-xl-12 col-lg-6">
                         <div
-                          className={`bostami-contact-item  ${elm.bgColor} bg-prink mb-30`}
+                          className={`mt-contact-item  ${elm.bgColor} bg-prink mb-30`}
                         >
                           <div className="icon">
                             <Image
@@ -55,9 +55,9 @@ export default function ContactTwo() {
               <div className="col-xl-8  col-lg-12">
                 <div className="contact-area bg-light-white-2 mb-60">
                   <h5 className="contact-title">
-                    I'm always open to discuss
+                    I'm Always Open To Discuss
                   </h5>
-                  <h5 className="contact-title-b">Product Development or Partnerships.</h5>
+                  <h5 className="contact-title-b">product development or partnerships.</h5>
                   <ContactForm/>
                 </div>
               </div>

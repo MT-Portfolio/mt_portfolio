@@ -8,23 +8,23 @@ import React from "react";
 
 export default function ResumeTwo() {
   return (
-    <div className="bostami-page-area z-index-3">
+    <div className="mt-page-area z-index-3">
       <div className="container">
-        <div className="bostami-page-wrap pt-60 pl-80 pr-80">
+        <div className="mt-page-wrap pt-60 pl-80 pr-80">
           <div className="page-tilte-2-wrap">
             <div className="row">
               <div className="col-12">
-                <div className="bostami-page-title-wrap mb-40">
+                <div className="mt-page-title-wrap mb-40">
                   <h2 className="page-title">Resume</h2>
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="bostami-resume-2">
+          <div className="mt-resume-2">
             <div className="row">
               <div className="col-xl-6 col-lg-6 col-md-6">
-                <div className="bostami-section-title-wrap mb-20">
+                <div className="mt-section-title-wrap mb-20">
                   <h4 className="section-title">
                     <Image
                       width={38}
@@ -36,10 +36,10 @@ export default function ResumeTwo() {
                   </h4>
                 </div>
 
-                <div className="bostami-card-wrap mb-50">
+                <div className="mt-card-wrap mb-50">
                   {education.map((elm, i) => (
                     <div
-                      className={`bostami-card-item ${elm.bgClass} ${
+                      className={`mt-card-item ${elm.bgClass} ${
                         i + 1 != education.length && "mb-20"
                       } `}
                     >
@@ -55,7 +55,7 @@ export default function ResumeTwo() {
               </div>
 
               <div className="col-xl-6 col-lg-6 col-md-6">
-                <div className="bostami-section-title-wrap mb-20">
+                <div className="mt-section-title-wrap mb-20">
                   <h4 className="section-title">
                     <Image
                       width={30}
@@ -67,11 +67,11 @@ export default function ResumeTwo() {
                   </h4>
                 </div>
 
-                <div className="bostami-card-wrap mb-50">
+                <div className="mt-card-wrap mb-50">
                   {experiences.map((elm, i) => (
                     <div
                       key={i}
-                      className={`bostami-card-item ${elm.bgClass} ${
+                      className={`mt-card-item ${elm.bgClass} ${
                         i + 1 != experiences.length && "mb-20"
                       } `}
                     >
@@ -84,7 +84,7 @@ export default function ResumeTwo() {
               </div>
 
               {/* <div className="col-xl-4 col-lg-6 col-md-6">
-                <div className="bostami-section-title-wrap mb-20">
+                <div className="mt-section-title-wrap mb-20">
                   <h4 className="section-title">
                     <Image
                       width={24}
@@ -96,11 +96,11 @@ export default function ResumeTwo() {
                   </h4>
                 </div>
 
-                <div className="bostami-card-wrap mb-50">
+                <div className="mt-card-wrap mb-50">
                   {awards.map((elm, i) => (
                     <div
                       key={i}
-                      className={`bostami-card-item ${elm.bgClass} ${
+                      className={`mt-card-item ${elm.bgClass} ${
                         i + 1 != awards.length ? "mb-20" : ""
                       } `}
                     >
@@ -117,7 +117,7 @@ export default function ResumeTwo() {
           <div className="section-wrapper border-redius-20 bg-light-white-2 mt-20  pt-70 pb-60 pl-30 pr-30">
             <div className="row">
               <div className="col-xl-6 col-lg-7">
-                <div className="bostami-section-title-wrap mb-20">
+                <div className="mt-section-title-wrap mb-20">
                   <h4 className="section-title">Working Skills</h4>
                 </div>
 
@@ -145,7 +145,7 @@ export default function ResumeTwo() {
               </div>
 
               <div className="col-xl-6 col-lg-5">
-                <div className="bostami-section-title-wrap mb-20">
+                <div className="mt-section-title-wrap mb-20">
                   <h4 className="section-title">Knowledges</h4>
                 </div>
 

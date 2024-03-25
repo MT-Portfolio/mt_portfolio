@@ -5,7 +5,7 @@ import React from "react";
 export default function Experience() {
   return (
     <div className="col-xl-6 col-lg-5">
-      <div className="bostami-section-title-wrap mb-20">
+      <div className="mt-section-title-wrap mb-20">
         <h4 className="section-title">
           <Image
             width={30}
@@ -20,7 +20,7 @@ export default function Experience() {
       {experiences.map((elm, i) => (
         <div
           key={i}
-          className={`bostami-card-item ${elm.bgClass} ${
+          className={`mt-card-item ${elm.bgClass} ${
             i + 1 != experiences.length && "mb-20"
           } `}
         >
