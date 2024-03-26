@@ -49,7 +49,7 @@ body {
 }
 
 .title span {
-    color: #fa5252ef;
+    color: var(--common-black);  /* #fa5252ef */
 }
 
 .btn {

@@ -3,7 +3,7 @@ export const contactItems = [
     id: 1,
     iconSrc: "/assets/img/icon/phone-call.png",
     title: "phone ",
-    content: ["+92 333 4409803"/* , "+2565 562 226" */],
+    content: ["+92 333 4409803"],
     bgColor: "bg-prink",
   },
   {
@@ -17,7 +17,7 @@ export const contactItems = [
     id: 3,
     iconSrc: "/assets/img/icon/map-icon.png",
     title: "address ",
-    content: ["Lahore, Pakistan"/* , "Road, New York, USA" */],
+    content: ["Lahore, Pakistan"],
     bgColor: "bg-prink",
   },
 ];
