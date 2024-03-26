@@ -77,7 +77,7 @@ export default function ResumeTwo() {
                     >
                       <span className="card-subtitle">{elm.session}</span>
                       <h6 className="card-title">{elm.role}</h6>
-                      <p className="card-text">{elm.company}</p>
+                      <p className="card-text">{elm.company} | {elm.location}</p>
                     </div>
                   ))}
                 </div>
