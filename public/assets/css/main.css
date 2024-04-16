@@ -2259,7 +2259,7 @@ textarea:focus::placeholder {
 .mobile-menu-wrap .mobile-menu {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 50%;
   right: 0;
   transform: scaleY(0);
   transform-origin: top;
@@ -2276,6 +2276,9 @@ textarea:focus::placeholder {
 .mobile-menu-wrap .mobile-menu .mean-bar .mean-nav {
   margin-top: 0;
   background-color: var(--common-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .mobile-menu-wrap .mobile-menu .mean-bar .mean-nav ul li a {
   border: none;
