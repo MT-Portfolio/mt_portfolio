@@ -21,17 +21,17 @@ export default function Menu({ setMenuOpen, data }) {
       <nav className="mean-nav">
         <ul>
           {data.map((elm, i) => (
-            <li
-              key={i}
-              className={` ${i + 1 == data.length && "mean-last"} ${
-                pathname == elm.href && "active"
-              }  `}
-              style={{ paddingTop: "5px", paddingBottom: "4px" }}
-              onClick={() => {
-                setMenuOpen(false);
-              }}
-            >
-              <Link href={elm.href}>
+            <Link href={elm.href}>
+              <li
+                key={i}
+                className={` ${i + 1 == data.length && "mean-last"} ${
+                  pathname == elm.href && "active"
+                }  `}
+                style={{ paddingTop: "5px", paddingBottom: "4px" }}
+                onClick={() => {
+                  setMenuOpen(false);
+                }}
+              >
                 <span>
                   <i
                     style={{ fontSize: "18px", marginRight: "10px" }}
@@ -39,8 +39,8 @@ export default function Menu({ setMenuOpen, data }) {
                   ></i>
                 </span>
                 {elm.text}
-              </Link>
-            </li>
+              </li>
+            </Link>
           ))}
         </ul>
       </nav>
