@@ -1,6 +1,7 @@
 import { ToastContainer } from "react-toastify";
 import "../public/main.scss";
 import Script from "next/script";
+import { Analytics } from "@vercel/analytics/react"
 
 export default function RootLayout({ children }) {
   return (
@@ -12,18 +13,20 @@ export default function RootLayout({ children }) {
         />
 
         {/* <!-- Google tag (gtag.js) --> */}
-        <script
+        <Script
+          strategy="lazyOnload"
           async
-          src="https://www.googletagmanager.com/gtag/js?id=G-J5FPT3S417"
-        ></script>
-        <script>
+          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+        ></Script>
+        <Script strategy="lazyOnload">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', ${'${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}'});
           `}
-        </script>
+        </Script>
+        <Analytics />
       </head>
       <body className="">
         <ToastContainer
