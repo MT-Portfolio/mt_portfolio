@@ -1,6 +1,6 @@
 import { ToastContainer } from "react-toastify";
 import "../public/main.scss";
-import Script from "next/script";
+// import Script from "next/script";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
         />
 
         {/* <!-- Google tag (gtag.js) --> */}
-        <Script
+        {/* <Script
           strategy="lazyOnload"
           async
           src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
@@ -26,7 +26,19 @@ export default function RootLayout({ children }) {
             gtag('js', new Date());
             gtag('config', ${"${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}"});
           `}
-        </Script>
+        </Script> */}
+        <script
+          async
+          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+        ></script>
+        <script>
+          {`  window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+
+              gtag('config', ${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS});
+          `}
+        </script>
         <Analytics />
         <SpeedInsights />
       </head>
