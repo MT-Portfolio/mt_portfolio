@@ -4090,7 +4090,7 @@ textarea:focus::placeholder {
   outline: none;
   border-bottom: 1px solid #b5b5b5;
   background: transparent;
-  height: 15px;
+  height: 25px;
   transition: 0.3s;
   transform-origin: top;
   font-size: 14px;
