@@ -1,7 +1,8 @@
 import { ToastContainer } from "react-toastify";
 import "../public/main.scss";
 import Script from "next/script";
-import { Analytics } from "@vercel/analytics/react"
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export default function RootLayout({ children }) {
   return (
@@ -23,10 +24,11 @@ export default function RootLayout({ children }) {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', ${'${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}'});
+            gtag('config', ${"${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}"});
           `}
         </Script>
         <Analytics />
+        <SpeedInsights />
       </head>
       <body className="">
         <ToastContainer
