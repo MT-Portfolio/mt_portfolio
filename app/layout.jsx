@@ -3,6 +3,7 @@ import "../public/main.scss";
 // import Script from "next/script";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 export default function RootLayout({ children }) {
   return (
@@ -27,16 +28,14 @@ export default function RootLayout({ children }) {
             gtag('config', ${"${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}"});
           `}
         </Script> */}
-        <script
-          async
-          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
-        ></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-J5FPT3S417"></script>
         <script>
-          {`  window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-              gtag('config', ${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS});
+            gtag('config', 'G-J5FPT3S417');
           `}
         </script>
         <Analytics />
@@ -56,6 +55,7 @@ export default function RootLayout({ children }) {
         />
         {children}
       </body>
+      <GoogleAnalytics gaId="G-J5FPT3S417" />
     </html>
   );
 }
