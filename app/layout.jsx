@@ -1,9 +1,8 @@
 import { ToastContainer } from "react-toastify";
 import "../public/main.scss";
-// import Script from "next/script";
+import Script from "next/script";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
-import { GoogleAnalytics } from '@next/third-parties/google'
 
 export default function RootLayout({ children }) {
   return (
@@ -15,29 +14,21 @@ export default function RootLayout({ children }) {
         />
 
         {/* <!-- Google tag (gtag.js) --> */}
-        {/* <Script
-          strategy="lazyOnload"
-          async
+        <Script
+          strategy="afterInteractive"
           src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
-        ></Script>
-        <Script strategy="lazyOnload">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', ${"${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}"});
-          `}
-        </Script> */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-J5FPT3S417"></script>
-        <script>
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'G-J5FPT3S417');
-          `}
-        </script>
+        />
+        <Script
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}');
+            `,
+          }}
+        />
         <Analytics />
         <SpeedInsights />
       </head>
@@ -55,7 +46,6 @@ export default function RootLayout({ children }) {
         />
         {children}
       </body>
-      <GoogleAnalytics gaId="G-J5FPT3S417" />
     </html>
   );
 }
