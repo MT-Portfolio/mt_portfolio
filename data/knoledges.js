@@ -1,6 +1,7 @@
 export const knoledges = [
   "LAMP Stack",
   "MERN Stack",
+  "RoR",
   "PHP",
   "Laravel",
   "Yii",
