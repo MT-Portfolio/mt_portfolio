@@ -54,7 +54,7 @@ export const itemsTwo = [
     icon: "/assets/img/design.svg",
     title: "Ui/Ux Design",
     description:
-      "Design beautiful and intuitive user interfaces and experiences.",
+      "Design user interfaces that are functional, aesthetically pleasing, and communicate brand identity.",
     bg: "bg-prink",
   },
   {
@@ -78,7 +78,7 @@ export const itemsTwo = [
     icon: "/assets/img/agileProjectManagement.svg",
     title: "Project Management",
     description:
-      "Apply agile project management to ensure your projects stay on track and deliver exceptional results.",
+      "Apply agile project management to ensure projects stays on track.",
     bg: "bg-catkrill",
   },
   

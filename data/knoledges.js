@@ -1,6 +1,7 @@
 export const knoledges = [
   "LAMP Stack",
   "MERN Stack",
+  "Flutter",
   "RoR",
   "PHP",
   "Laravel",
@@ -8,6 +9,7 @@ export const knoledges = [
   "React JS",
   "Next JS",
   "React Native",
+  "Mac OS",
   "Linux",
   "Apache",
   "MySQL",
@@ -17,6 +19,7 @@ export const knoledges = [
   "Yii2",
   "Tailwind",
   "CI/CD & API Integrations",
-  "Project Management",
-  "Flexibility",
+  "Amazon AWS EC2",
+  "Supabase",
+  "Vercel",
 ];

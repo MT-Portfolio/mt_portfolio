@@ -5239,5 +5239,13 @@ textarea:focus::placeholder {
   border-bottom-color: #333;
 }
 .dark-theme .mt-personal-info-btn .btn-2 {
-  color: #fff;
+  color: white;
+}
+
+.dark-theme .mt-personal-info-btn:hover .btn-2 {
+  color: black;
+}
+
+.mt-personal-info-btn:hover .btn-2 {
+  color: black;
 }

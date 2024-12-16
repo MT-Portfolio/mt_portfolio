@@ -35,7 +35,7 @@ export default function PersonalInfoTwo() {
 
           <div className="mt-personal-info-btn">
             <a className="btn-2 circle" href="/cv.pdf" download>
-              <span style={{ color: "#fff" }} className="icon">
+              <span className="icon">
                 <i className="fa-regular fa-download"></i>
               </span>
               download cv
