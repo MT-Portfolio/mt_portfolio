@@ -126,8 +126,8 @@ export default function AboutTwo() {
                     slidesPerView={2}
                     loop={true}
                     autoplay={{
-                      delay: 3000, // Time between each slide (in milliseconds)
-                      disableOnInteraction: false, // Set to false if you want the auto slider to continue even when the user interacts with the slider (e.g., clicking on a slide).
+                      delay: 2000/* 3000 */, // Time between each slide (in milliseconds)
+                      disableOnInteraction: true, // Set to false if you want the auto slider to continue even when the user interacts with the slider (e.g., clicking on a slide).
                     }}
                     breakpoints={{
                       // when window width is >= 576px
