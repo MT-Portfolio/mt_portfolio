@@ -1,8 +1,10 @@
 export const bioData = {
-  descOne: `I'm Creative Software Engineer from Lahore, Pakistan, passionate about transforming complex
-    problems into beautiful, intuitive web and mobile experiences. I design user interfaces
-    that are not only functional but also asthetically pleasing, effectively communicating your brand identity.`,
-  descTwo: `My goal is to become a leading software engineer recognized for building impactful and visually 
-    stunning web and mobile experiences that prioritize user needs and drive brand success. I have experience 
-    of building web and mobile apps for well-known brands.`,
+  descOne: `I’m a Software Engineer from Lahore, Pakistan, passionate about transforming complex
+    problems into intuitive, impactful digital solutions. I specialize in designing and developing
+    pixel-perfect, high-performance web and mobile applications using modern frameworks like
+    Flutter, React, Ruby on Rails, Laravel, and Node.js.`,
+  descTwo: `With hands-on experience in deploying cross-platform apps, integrating APIs, and managing
+    scalable cloud infrastructures, I bring a product-focused mindset to every project. My goal is
+    to build visually stunning and user-centered experiences that drive real-world value for brands
+    and users alike.`,
 }; 

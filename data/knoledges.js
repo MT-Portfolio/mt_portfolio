@@ -19,7 +19,12 @@ export const knoledges = [
   "Yii2",
   "Tailwind",
   "CI/CD & API Integrations",
+  "Netlify",
   "Amazon AWS EC2",
   "Supabase",
   "Vercel",
+  "Firebase",
+  "Amazon S3 - Cloud Object Storage - AWS",
+  "GitHub", 
+  "GitHub Actions",
 ];

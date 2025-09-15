@@ -20,7 +20,7 @@ export const skillData = [
   {
     id: 4,
     title: "Flutter",
-    progress: 90,
+    progress: 100,
     progressClass: "progress-bg-1",
   },
   {

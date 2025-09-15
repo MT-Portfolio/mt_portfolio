@@ -16,7 +16,7 @@ export const contactData = [
     iconClass: "fa-regular fa-envelope-open-text",
     text: {
       label: "Email",
-      value: "m.taha11@icloud.com",
+      value: "connect.mohammadtaha@gmail.com",
     },
   },
   {
